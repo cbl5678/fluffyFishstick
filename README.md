@@ -1,4 +1,8 @@
 # fluffyFishstick
 History of Science Fiction: Quark Magazine (1970s)
 
-Start
+Members: 
+    Connor Lengyel
+    Liz Chavez
+    Tommy (enter last name here... sorry Tommy)
+    Hattie Sosia
