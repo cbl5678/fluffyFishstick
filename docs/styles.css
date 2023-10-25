@@ -43,7 +43,7 @@ h1 {
 .photo p {
     margin: 5px 0;
 }
-figcaption {
+.figcaption {
     position: absolute;
     left: -9999px;
     width: 1px;
