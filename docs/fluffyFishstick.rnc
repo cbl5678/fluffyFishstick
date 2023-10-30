@@ -1,0 +1,10 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start=html
+html= element html {head, body}
+
+head=element head {}
+
+body=element body{}
+
+
