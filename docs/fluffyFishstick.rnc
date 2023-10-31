@@ -3,8 +3,24 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start=html
 html= element html {head, body}
 
-head=element head {}
+head=element head {link, title}
+link=element link{rel, type, href}
+rel=attribute rel {text}
+type=attribute type {text}
+href=attribute href {text}
 
-body=element body{}
+title=element title {text}
+
+
+body=element body{header, section+}
+header=element header {h1}
+h1=element h1 {text}
+section=element section {class}
+#CL: got to figure out how to use div in schema
+div=element div {class, (img*|p*)}
+class=attribute class {"contents"|"photo-gallery"}
+
+
+
 
 
