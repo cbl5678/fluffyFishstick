@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    
+    <title>CONTRIBUTORS' NOTES</title>
+    
+    
+  <listPerson type="contributor">  
+      
+   <person xml:id="Adam_Helen"><persName>HELEN ADAM</persName>
+       <!-- more info you provide like birth / death dates?-->
+       <birth when=""/>
+       <death when=""/>
+       <note source="Quark">is a Scots-born poet, who now lives in
+    New York City. She is the co-author of the play San
+    Francisco's Burning, which has been presented in San
+    Francisco and in New York.</note>
+   </person>
+   <person> HILARY BAILEY's most recent American publication
+    was the novella The Fall of Frenchy Steiner. She lives in
+    London, with her husband, Michael Moorcock.
+    GREG BENFORD's first novel, Deeper than the Darkness, is an expansion of his novelette of the same title,
+    which was nominated for the Nebula Award of the
+    Science Fiction Writers of America.</person>
+    <person>JOAN BERNOTT attended the Clarion College Science
+    Fiction Writers' Workshop.</person>
+    <person>SANDRA BOUCHER is a young writer who lives in San
+    Francisco.</person>
+    ED BRYANT has a Master's degree in English from the
+    University of Wyoming. He lives in Los Angeles.
+    SAMUEL R. DELANY lives currently in San Francisco.
+    THOMAS M. DISCH, author of Camp Concentration,
+    The Genocides, and Echo Round His Bones, lives in New
+    York.
+    GARDNER R. DOZOIS recently returned to the United
+    States after spending four years abroad. He now lives in
+    New York City.
+    238 
+    GORDON EKLUND lives with his wife and child in San
+    Francisco.
+    RUSSELL FITZGERALD is a painter, designer, and
+    writer. He lives in New York with his wife and twin
+    daughters.
+    STEPHEN GILDEN is a painter and cartoonist who has
+    lived in Texas, New York, and, currently, California.
+    H. B. HICKEY lives in Los Angeles.
+    R. A. LAFFERTY is the author of Space Chantey, The
+    Reefs of Earth, Past Master, and, most recently, Fourth
+    Mansions.
+    URSULA K. LEGUIN received the Nebula Award of the
+    Science Fiction Writers of America for her novel The
+    Left Hand of Darkness.
+    LINK is a young poet who lives in San Francisco. He
+    edited the literary magazine Cow.
+    CHRISTOPHER PRIEST is a young English writer.
+    JOANNA RUSS is the author of And Chaos Died and
+    Picnic on Paradise. She teaches creative writing at Cornell
+    University.
+    GEORGE STANLEY's collection of poems, You, will
+    appear this winter from Grove Press, and will include
+    Orion.
+    A. E. VAN VOGT is the author of The Silkie, The
+    Weapon Shops of lsher, and Sian. 
+  
+  </listPerson>
+    
+    <listPerson>
+        <!-- We can use XSLT to pull the names of all the people the project team tags, and then populate another list that either lives in 
+        this file or elsewhere-->
+    </listPerson>
+    
+</xml>
