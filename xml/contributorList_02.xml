@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <person>
         <persName>JOAN BERNOTT</persName>
@@ -98,13 +99,13 @@
         <persName>MAREK OBTULOWICZ</persName>
         <birth when="unfindable"/>
         <death when="unfindable"/>
-        <note source="quark">is Polish, born in <location type="birthplace">Cairo</location>, and educated in England. At present, he lives
+        <note source="quark">is Polish, born in Cairo, and educated in England. At present, he lives
             in Milford, Pennsylvania, where he is working on a novel.</note>
     </person>
     <person>
         <persName>ALEXEI PANSHIN</persName>
-        <birth when="08-14-1940" where="Lansing, Michigan"/>
-        <death when="08-21-2022"/>
+        <birth when="1940-08-14" where="Lansing, Michigan"/>
+        <death when="2022-08-21"/>
         <desc>an American writer and science fiction critic.</desc>
         <note source="quark"> is the author of the novels Masque World, The Thurb Revolution, and
             Rite Of Passage, which received the Nebula Award of the Science Fiction Writers of
@@ -118,7 +119,7 @@
     </person>
     <person>
         <persName>JAMES SALLIS</persName>
-        <birth when="12-21-1944" where="Helena, Arkansas"/>
+        <birth when="1944-12-21" where="Helena, Arkansas"/>
         <desc>an American crime writer who wrote a series of novels featuring the detective character Lew Griffin</desc>
         <note source="quark"> is a poet who lives in Milford, Pennsyl- vania. A collection of his
             short fiction, A Few Last Words, appeared last fall, and he is presently working on a
@@ -126,8 +127,8 @@
     </person>
     <person>
         <persName>JOHN SLADEK</persName>
-        <birth when="12-15-1937" where="Waverly, Iowa"/>
-        <death when="03-10-2000" were="Minneapolis, Minnesota"/>
+        <birth when="1937-12-15" where="Waverly, Iowa"/>
+        <death when="2000-03-10" where="Minneapolis, Minnesota"/>
         <desc>was an American science fiction author</desc>
         <note source="quark">is the author of The Reproductive Sys- tem, published in this country
             as Mechasm; and co- author, with Thomas M. Disch, of Black Alice. He is living in
@@ -141,7 +142,7 @@
     </person>
     <person>
         <persName>LAURENCE YEP's</persName>
-        <birth when="06-14-1948" where="San Francisco, California"/>
+        <birth when="1948-06-14" where="San Francisco, California"/>
         <desc> an American writer</desc>
         <note source="quark">story, The Selchey Kids, appeared in World's Best Science Fiction. He
             is a student at the Uni- versity of California at Santa Cruz.</note>

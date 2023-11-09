@@ -1,0 +1,25 @@
+start = xml
+
+xml = element xml {person+}
+person = element person {persName, birth*, death*, desc*, note*}
+
+persName=element persName {text}
+
+birth=element birth {when, where*}
+death=element death {when, where*}
+
+when=attribute when {"unfindable"|xsd:date|xsd:gYear}
+where=attribute where {text}
+
+desc=element desc {text}
+
+note=element note {source,text}
+
+source=attribute source {"quark"}
+
+
+
+
+
+
+
