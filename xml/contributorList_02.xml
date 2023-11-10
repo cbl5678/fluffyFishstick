@@ -10,7 +10,7 @@
             second appearance in QUARK/.</note>
     </person>
     <person>
-        <persName>JOHN BRUNNER's</persName>
+        <persName>JOHN BRUNNER</persName>
         <birth when="1934-09-24" where="Preston Crowmarsh"/>
         <death when="1995-08-25"/>
         <desc>British author of science fiction novels and stories.</desc>
@@ -30,7 +30,7 @@
         <birth when="1935-02-03" where="Bronx, New York"/>
         <death when="2011-04-25" where="New York"/>
         <desc>an American poet, publisher, photographer and filmmaker.</desc>
-        <note source="quark">lives in New York. He has just completed his first film The Ivasion of
+        <note source="quark">lives in New York. He has just completed his first film The Invasion of
             the Thunderbolt Pagoda, in collaboration with Bill Vehr.</note>
     </person>
     <person>
@@ -41,20 +41,20 @@
         <note source="quark"> is the author of the novels The Genocides and Camp Concentration. He
             has also been widely published as a poet.</note>
     </person>
-    <person><persName>SONYA DORMAN's</persName> 
+    <person><persName>SONYA DORMAN</persName> 
         <birth when="1924-06-04" where="NYC"/>
         <death when="2005-02-14" where="Taos, New Mexico"/>
         <desc>Dorman published around two dozen science fiction short stories between 1961 and 1980, and she was associated with science fiction's "New Wave" of experimental writing.</desc>
         <note source="quark">fiction has appeared in
-            Dangerous Visions and in Orbit; and her book, Poems, was pub- lished by Ohio University
+            Dangerous Visions and in Orbit; and her book, Poems, was published by Ohio University
             Press last fall.</note></person>
     <person>
-        <persName>CAROL EMSHWILLER's</persName>
+        <persName>CAROL EMSHWILLER</persName>
         <birth when="1921-04-12" where="Ann Arbor, Michigan"/>
         <death when="2019-02-02" where="Durham, North Carolina"/>
         <desc> was an American writer of avant garde short stories and science fiction who has won prizes ranging from the Nebula Award to the Philip K. Dick Award. Ursula K. Le Guin has called her "a major fabulist, a marvelous magical realist, one of the strongest, most complex, most consistently feminist voices in fiction". </desc>
         <note source="quark"> work is familiar to readers of Orbit and Dangerous Visions. She is
-            presently com- pleting her first novel.</note>
+            presently completing her first novel.</note>
     </person>
     <person>
         <persName>PHILIP JOSÉ FARMER</persName>
@@ -70,7 +70,7 @@
         <birth when="1932-12-29" where="Bucks County, Pennsylvania"/>
         <death when="1978-03-30" />
         <note source="quark">is a painter and a writer, whose art work appeared in QUARK/1. He lives
-            in Van- couver. NEMI FROST is a San Francisco painter.</note>
+            in Vancouver. NEMI FROST is a San Francisco painter.</note>
     </person>
     <person>
         <persName>MARILYN HACKER</persName>
@@ -84,7 +84,7 @@
         <birth when="unfindable"/>
         <death when="unfindable"/>
         <note source="quark">is a linguist, a playwright, and a city planner. Several of his
-            dramatic works have been pro- duced in San Francisco.</note>
+            dramatic works have been produced in San Francisco.</note>
     </person>
     <person>
         <persName>FRITZ LEIBER</persName>
@@ -92,7 +92,7 @@
         <death when="1992-09-05" where="San Francisco, California"/>
         <desc> an American writer of fantasy, horror, and science fiction. He was also a poet, actor in theater and films, playwright, and chess expert.</desc>
         <note source="quark">received both the Hugo Award and the Nebula Award of the Science
-            Fiction Writers of Amer- ica for the story Gonna Roll Them Bones, which ap- peared in
+            Fiction Writers of America for the story Gonna Roll Them Bones, which appeared in
             Dangerous Visions.</note>
     </person>
     <person>
@@ -121,7 +121,7 @@
         <persName>JAMES SALLIS</persName>
         <birth when="1944-12-21" where="Helena, Arkansas"/>
         <desc>an American crime writer who wrote a series of novels featuring the detective character Lew Griffin</desc>
-        <note source="quark"> is a poet who lives in Milford, Pennsyl- vania. A collection of his
+        <note source="quark"> is a poet who lives in Milford, Pennsylvania. A collection of his
             short fiction, A Few Last Words, appeared last fall, and he is presently working on a
             book about American country music.</note>
     </person>
@@ -130,21 +130,21 @@
         <birth when="1937-12-15" where="Waverly, Iowa"/>
         <death when="2000-03-10" where="Minneapolis, Minnesota"/>
         <desc>was an American science fiction author</desc>
-        <note source="quark">is the author of The Reproductive Sys- tem, published in this country
-            as Mechasm; and co- author, with Thomas M. Disch, of Black Alice. He is living in
+        <note source="quark">is the author of The Reproductive System, published in this country
+            as Mechasm; and co-author, with Thomas M. Disch, of Black Alice. He is living in
             England.</note>
     </person>
     <person>
         <persName>LELAND STONEY</persName>
         <birth when="unfindable"/>
         <death when="unfindable"/>
-        <note source="quark">is a young poet living in San Fran- cisco.</note>
+        <note source="quark">is a young poet living in San Francisco.</note>
     </person>
     <person>
-        <persName>LAURENCE YEP's</persName>
+        <persName>LAURENCE YEP</persName>
         <birth when="1948-06-14" where="San Francisco, California"/>
         <desc> an American writer</desc>
         <note source="quark">story, The Selchey Kids, appeared in World's Best Science Fiction. He
-            is a student at the Uni- versity of California at Santa Cruz.</note>
+            is a student at the University of California at Santa Cruz.</note>
     </person>
 </xml>
