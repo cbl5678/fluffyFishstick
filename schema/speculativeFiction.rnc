@@ -1,0 +1,8 @@
+start=xml
+xml=element xml {title, p+,signature}
+
+title=element title {type*}
+
+type=attribute type {text}
+
+p=element p {{mixed{text|persName| title|groupName}}}

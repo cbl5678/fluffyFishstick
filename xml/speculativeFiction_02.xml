@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
+    <title>speculative fiction</title>
     <p>All fiction is speculative.</p>
     <p>Its tools are words, and its building process is human thought or imagination. Its point of
         view is the distorting glass of the writer's mind.</p>
@@ -10,6 +12,10 @@
     <p>This is a tribute to imagination, an invocation of the possible, as grim as headlines, as
         gorgeous as invention.</p>
     <p>This is a quarterly of speculative fiction.</p>
-    <signature of="authors"><lb/>-<author>Samuel R. Delany</author><lb/><author> Marilyn
-            Hacker</author></signature>
+    <signature of="authors">
+        <lb/>
+        <author>Samuel R. Delany</author>
+        <lb/>
+        <author> Marilyn Hacker</author>
+    </signature>
 </xml>

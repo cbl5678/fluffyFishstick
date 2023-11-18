@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <ContributorsList>
+<?xml-model href="../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    
         <person>
             <persName>HILARY BAILEY</persName>
-            <note source="Quark"> lives in London with her husband, Michael Moorcock, and their two
-                daughters. She is presently working on a novel.</note>
+            
             <birth when="1936-09-19"/>
             <death when="2017-01-19"/>
             <desc>Hilary Bailey is a British writer and editor, born in 1936. She is the author of a
@@ -12,19 +12,21 @@
                 series and among her varied works are 19 books of fiction, including famously
                 Frankenstein's Bride, the sequel to Mary Shelley's Frankenstein, Mrs Rochester, the
                 sequel to Jane Eyre, and Fifty-First State (2008).</desc>
+            <note source="quark"> lives in London with her husband, Michael Moorcock, and their two
+                daughters. She is presently working on a novel.</note>
         </person>
         <person>
             <persName>SAMUEL R. DELANY</persName>
-            <note source="Quark">is currently living in New York.</note>
+           
             <birth when="1942-04-01"/>
             <desc>an American writer and literary critic. His work includes fiction (especially
                 science fiction), memoir, criticism, and essays on science fiction, literature,
                 sexuality, and society.</desc>
+            <note source="quark">is currently living in New York.</note>
         </person>
         <person>
             <persName>SONYA DORMAN</persName>
-            <note source="Quark">'s book, Poems was recently published by the Ohio University
-                Press.</note>
+            
             <birth when="1924-06-04"/>
             <death when="2005-02-14"/>
             <desc>Dorman published approximately two dozen science fiction stories between 1961 and
@@ -41,58 +43,63 @@
                 science fiction community includes a 1978 Science Fiction Poetry Association
                 Rhysling Award for "The Corruption of Metals," and a 1995 James Tiptree, Jr.
                 retroactive award for "When I Was Miss Dow" (1963, reprinted in Galaxy 1966).</desc>
+            <note source="quark">'s book, Poems was recently published by the Ohio University
+                Press.</note>
         </person>
         <person>
             <persName>GORDON EKLUND</persName>
-            <note source="Quark">lives in Berkeley with his wife and child, and recently finished
-                and sold his first novel. <birth when="1945-07-24"/>
+             <birth when="1945-07-24"/>
                 <desc>Gordon Eklund is an American science fiction author whose works include the
                     "Lord Tedric" series and two of the earliest original novels based on the 1960s
                     Star Trek TV series. He has written under the pen name Wendell Stewart, and in
-                    one instance under the name of the late E. E. "Doc" Smith.</desc></note>
+                    one instance under the name of the late E. E. "Doc" Smith.</desc>
+            <note source="quark">lives in Berkeley with his wife and child, and recently finished
+                and sold his first novel.</note>
         </person>
         <person>
             <persName> M. JOHN HARRISON</persName>
-            <note source="Quark"> lives in London. His work has appeared on both sides of the
-                Atlantic, and he is working on his first novel.<birth when="1945-07-26"/>
+            <birth when="1945-07-26"/>
                 <desc>Michael John Harrison, known for publication purposes primarily as M. John
                     Harrison, is an English author and literary critic. His work includes the
                     Viriconium sequence of novels and short stories, Climbers, and the Kefahuchi
                     Tract trilogy, which consists of Light, Nova Swing and Empty
-                Space.</desc></note>
+                Space.</desc>
+            <note source="quark"> lives in London. His work has appeared on both sides of the
+                Atlantic, and he is working on his first novel.</note>
         </person>
         <person>
             <persName>RICHARD HILL</persName>
-            <note source="Quark">'s novel, Ghost Story, is scheduled to appear this spring. His work
-                has been in Orbit, and will be in Again, Dangerous Visions.<birth when="unknown"
-                    /><death wehn="unknown"/></note>
+            <birth when="unfindable"
+                    /><death when="unfindable"/>
+            <note source="quark">'s novel, Ghost Story, is scheduled to appear this spring. His work
+                has been in Orbit, and will be in Again, Dangerous Visions.</note>
         </person>
         <person>
             <persName>VIRGINIA KIDD</persName>
-            <note source="Quark"> lives in Milford, Pennsylvania, from where she edits Kinesis, a
-                poetry magazine. Her work has appeared in Orbit, and she is working on a novel.
-                    <birth when="1941-06-02"/>
+              <birth when="1941-06-02"/>
                 <death when="2003-01-11"/>
                 <desc>Virginia Kidd was an American literary agent, writer and editor, who worked in
                     particular in science fiction and related fields. She represented science
                     fiction American authors such as Ursula K. Le Guin, R.A. Lafferty, Anne
-                    McCaffrey, Judith Merril, and Gene Wolfe.</desc></note>
+                    McCaffrey, Judith Merril, and Gene Wolfe.</desc>
+            <note source="quark"> lives in Milford, Pennsylvania, from where she edits Kinesis, a
+                poetry magazine. Her work has appeared in Orbit, and she is working on a novel.
+            </note>
         </person>
         <person>
             <persName>R. A. LAFFERTY</persName>
-            <note source="Quark">is the author of Past Master, The Reefs of Earth, and Fourth
-                Mansions. <birth wehn="1914-11-07"/>
-                <death when="2002=03-18"/>
+           <birth when="1914-11-07"/>
+                <death when="2002-03-18"/>
                 <desc>Raphael Aloysius "R. A." Lafferty was an American science fiction and fantasy
                     writer known for his original use of language, metaphor, and narrative
                     structure, Lafferty also wrote a set of four autobiographical novels, a history
-                    book, and several novels of historical fiction.</desc></note>
+                    book, and several novels of historical fiction.</desc>
+            <note source="quark">is the author of Past Master, The Reefs of Earth, and Fourth
+                Mansions. </note>
         </person>
         <person>
             <persName>ROBERT LA VIGNE</persName>
-            <note source="Quark">is a painter and stage designer, presently living in New York. He
-                received the Obie Award for set design in 1968, for his sets and costumes for A
-                Midsummer Night's Dream. <birth when="1928-07-15"/>
+            <birth when="1928-07-15"/>
                 <death when="2014-02-20"/>
                 <desc>Robert LaVigne was an American Postwar &amp; Contemporary artist who was born
                     in 1928. Numerous key galleries and museums such as John Natsoulas Center for
@@ -100,55 +107,58 @@
                     has been offered at auction multiple times. In MutualArt’s artist press archive,
                     Robert LaVigne is featured in Sotheby’s Bent. Sale Celebrates Worldpride, a
                     piece from WHITEWALL in June 2019.</desc>
-            </note>
+            <note source="quark">is a painter and stage designer, presently living in New York. He
+                received the Obie Award for set design in 1968, for his sets and costumes for A
+                Midsummer Night's Dream.</note>
         </person>
         <person>
             <persName>ROGER PENNEY</persName>
-            <note source="Quark">, the cover artist, lives in San Diego, California. <birth
-                    when="unkown"/>
-                <death when="unknown"/>
-            </note>
+             <birth
+                    when="unfindable"/>
+                <death when="unfindable"/>
+            <note source="quark">, the cover artist, lives in San Diego, California.</note>
         </person>
         <person>
             <persName>JOANNA RUSS</persName>
-            <note source="Quark"> is the author of Picnic On Paradise, and And Chaos Died, recently
-                nominated for the Nebula Award of the Science Fiction Writers of America. She lives
-                in Ithaca, New York, and teaches at Cornell University. <birth when="1937-02-22"/>
+            <birth when="1937-02-22"/>
                 <death when="2011-04-29"/>
                 <desc>Joanna Russ was an American writer, academic and feminist. She is the author
                     of a number of works of science fiction, fantasy and feminist literary criticism
                     such as How to Suppress Women's Writing, as well as a contemporary novel, On
                     Strike Against God, and one children's book, Kittatinny.</desc>
-            </note>
+            <note source="quark"> is the author of Picnic On Paradise, and And Chaos Died, recently
+                nominated for the Nebula Award of the Science Fiction Writers of America. She lives
+                in Ithaca, New York, and teaches at Cornell University.</note>
         </person>
         <person>
             <persName>JAMES SALLIS</persName>
-            <note source="Quark">' book of stories and poetry, A Few Last Words, was published last
-                fall. He is working on more poems, stories, a novel, and a book on American country
-                and western music.</note>
+            
             <birth when="1944-12-21"/>
             <desc>James Sallis is an American crime writer who wrote a series of novels featuring
                 the detective character Lew Griffin set in New Orleans, and the 2005 novel Drive,
                 which was adapted into a 2011 film of the same name. Sallis began writing science
                 fiction for magazines in the late 1960s.</desc>
+            <note source="quark">' book of stories and poetry, A Few Last Words, was published last
+                fall. He is working on more poems, stories, a novel, and a book on American country
+                and western music.</note>
         </person>
         <person>
             <persName>JOSEPHINE SAXTON</persName>
-            <note source="Quark"> is the author of The Hieros Gamos Of Sam And An Smith. Her new
-                novel, Vector For Seven, is scheduled to appear soon.</note>
-            <birth when="unknown"/>
-            <death when="unknown"/>
+            
+            <birth when="unfindable"/>
+            <death when="unfindable"/>
             <desc>Josephine Mary Howard was born in Halifax, Yorkshire, in 1935 and from the
                 mid-60's produced a body of highly regarded science fiction novels and short stories
                 under the name Josephine Saxton. Her 1986 novel Queen of the States was nominated
                 for the 1987 Arthur C. Clarke Award. She lives in Warwickshire.</desc>
+            <note source="quark"> is the author of The Hieros Gamos Of Sam And An Smith. Her new
+                novel, Vector For Seven, is scheduled to appear soon.</note>
         </person>
         <person>
             <persName>DONALD SIMPSON</persName>
-            <note source="Quark"> lives in Berkeley, California, where he draws, paints, and creates
-                elegant machines.</note>
-            <birth when="unknown"/>
-            <death when="unknown"/>
+            
+            <birth when="unfindable"/>
+            <death when="unfindable"/>
             <desc>Donald Edward Simpson (born 1961)[1] is an American comic book cartoonist and
                 freelance illustrator, most noted as the creator of the series Megaton Man, Border
                 Worlds, and Bizarre Heroes, as well as the official comic book adaption of King
@@ -156,19 +166,20 @@
                 widely seen work are the illustrations he created for Al Franken's 2003 bestseller,
                 Lies and the Lying Liars Who Tell Them: A Fair and Balanced Look at the
                 Right.</desc>
+            <note source="quark"> lives in Berkeley, California, where he draws, paints, and creates
+                elegant machines.</note>
         </person>
         <person>
             <persName>GEORGE STANLEY</persName>
-            <note source="Quark">lives in San Francisco. His collected poems will appear from the
+            
+            <birth when="unfindable"/>
+            <death when="unfindable"/>
+            <note source="quark">lives in San Francisco. His collected poems will appear from the
                 Grove Press this year, and he is presently writing a book-length prose work.</note>
-            <birth when="unknown"/>
-            <death when="unknown"/>
         </person>
         <person>
             <persName>TOM VEITCH</persName>
-            <note source="Quark"> commutes from New York to San Fran-cisco. His work has appeared in
-                many poetry magazines and anthologies, and he is the co-author, with Ron Padg-ett,
-                of the novel Star Gut.</note>
+            
             <birth when="1941-08-26"/>
             <death when="2022-02-14"/>
             <desc>Tom Veitch has been drawing and writing comics, novels, poetry and screenplays
@@ -180,23 +191,28 @@
                 monster, but this comic was never published. Veitch wrote a personal homage to
                 Robert Crumb in Monte Beauchamp's book 'The Life and Times of R. Crumb. Comments
                 From Contemporaries (St. Martin's Griffin, New York, 1998).</desc>
+            <note source="quark"> commutes from New York to San Fran-cisco. His work has appeared in
+                many poetry magazines and anthologies, and he is the co-author, with Ron Padg-ett,
+                of the novel Star Gut.</note>
         </person>
         <person>
             <persName>BRIAN VICKERS</persName>
-            <note source="Quark">lives in Yorkshire, England.</note>
-            <birth when="unknown"/>
-            <death when="unknown"/>
+            
+            <birth when="unfindable"/>
+            <death when="unfindable"/>
+            <note source="quark">lives in Yorkshire, England.</note>
         </person>
         <person>
             <persName>KATE WILHELM</persName>
-            <note source="Quark">is the author of many novels and collections of stories. Her latest
-                novel, Margaret And I is scheduled for publication this year.</note>
+            
             <birth when="1928-06-08"/>
             <death when="2018-03-08"/>
             <desc>Kate Wilhelm was an American author. She wrote novels and stories in the science
                 fiction, mystery, and suspense genres, including the Hugo Award–winning Where Late
                 the Sweet Birds Sang. Wilhelm established the Clarion Workshop along with her
                 husband Damon Knight and writer Robin Scott Wilson.</desc>
+            <note source="quark">is the author of many novels and collections of stories. Her latest
+                novel, Margaret And I is scheduled for publication this year.</note>
         </person>
-    </ContributorsList>
-</root>
+    
+</xml>
