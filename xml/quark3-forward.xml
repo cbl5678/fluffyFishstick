@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <issue>Quark 3</issue>
+        <date when="1971-05">May 1971</date>
+    </header>
+   
+    
+    <title>Forward</title>
+    
+    <epigraph>
+        <p><num>2.0121</num> ... Just as we are quite unable to imagine
+            spatial objects outside space or temporal
+                objects outside time, so there is no object that we can imagine
+            excluded from the possibility of combining with others. If I can imagine objects
+            combined in states of affairs, I cannot imagine them excluded from the
+            possibility of such combination.</p>
+        <p><num>2.022</num> It is obvious that an imagined world, however
+            different it may be from the real one, must have something—a form—in common with
+            it. </p>
+        <cit><persName>Ludwig Wittgenstein</persName>, <title>Tractatus Logico-Philosophicus</title></cit>
+        
+    </epigraph>
+      
+         
+         
+                <p> which is the best explanation why there is "speculative
+                    fiction."</p>
+                <p>An aesthetic object (a work of art? a story?) has internal tensions (form?)
+                    and also produces tensions with its environment. The resultant matrix of forces
+                    is called "audience reaction."</p>
+                <p>As writers, we can't control the real world. At best, we can observe it
+                    actively. We can control the internal tensions of the aesthetic objects of our
+                    making. Any of the "commercial writing tricks" to control reader reaction are a
+                    waste of time because they are attempts to control the real world, which is
+                    impossible, and distract from the time spent controlling internal tensions which
+                    —while they do not control audience reaction—are the workable points at which it
+                    is moored.</p>
+                <p>The attitude of the more commercial science fiction writers in its most
+                    articulate expression: "I am not an artist. I am a craftsman. I am concerned
+                    with entertainment, not aesthetics. Science fiction is the only area of popular
+                    literature whose basic entertainment value is intellectual—technological or
+                    sociological—which makes it a socially valuable genre per se. You experimental
+                    writers, by your emphasis on aesthetics, have blurred the major valid claim SH
+                    has as a socially functional literature."</p>
+                <p>But the problems of entertainment are aesthetic problems. If the definition
+                    of "entertainment" is allowed to include the emotions, the intellect, and the
+                    pure pleasure we take in form, then all aesthetic problems are problems of
+                    entertainment. Aesthetic discipline is that which makes most accessible all the
+                    substance of a given work. The writer who declines to make use of the full range
+                    of aesthetic discipline in deference to entertainment is cheating the reader of
+                    the entertainment he claims to be concerned with.</p>
+                <p>The argument for the social value of art over propaganda is too tedious and
+                    too familiar to reproduce here. A great deal of very good "classic" SF was done
+                    in the U.S. during the disasters of the (first) McCarthy period, when it was
+                    practically impossible to make a socially pertinent statement in any area other
+                    than science fiction.</p>
+                <p>People were invariably astounded that so much freedom did exist within the
+                    genre. But the official reaction was that SF was lunatic and not to be taken
+                    seriously.</p>
+                <p>Underneath that rather cavalier insult is a considerable truth: Within the
+                    aesthetic structure laid out by "the adventure story" it is impossible to
+                    produce a politically dangerous fiction, no matter how revolutionary the
+                    proposed world is, no matter what evils the hero is faced with, nor how
+                    congruent they are to the present ones. </p>
+                <p>The efficacy of "political" fiction, from the point of view of the body
+                    politic, is measured precisely in terms of real action it can cause ... and
+                    presumably becomes dangerous when somebody notices this action. The adventure,
+                    with its building tensions suddenly relieved, its preoccupation with the
+                    physical rather than the psychological, its linearity, simply doesn't leave
+                    enough residue of discomfort in the mind to precipitate action. This is what
+                    dooms a social criticism set in this form to political inconsequence.</p>
+                <p> The two fiction works in the U.S. that have been near revolutionary, Uncle
+                    Tom's Cabin and Babbitt, are, despite whatever barbarousnesses they contain,
+                    social chronicle novels, not adventures.</p>
+                <p>One's only objections to science fiction "of value as social criticism" is
+                    precisely that it failed to be dangerous, because of an aesthetic choice by the
+                    authors deferring to "popular entertainment."</p>
+                <p>A willingness to take risks means health and vitality in any artistic
+                    field. An unwillingness to take risks means stagnation, death. To view
+                    meaningfully the social, psychological, and technological crises present by the
+                    particular illumination generated by the forms and textures of speculative
+                    fiction, we must encourage as much experimentation as possible, so that this
+                    illumination will reach beyond the boundary timid parents have tried to
+                    prescribe for their vigorous children.</p>
+      
+        <signature>Samuel R. Delany &amp; Marilyn Hacker</signature>
+   
+</xml>
