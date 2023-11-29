@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- pb = pageBottom -->
+<!-- 
+     pb = pageBottom 
+     PoI = Point of Interest
+     abbr = Abbreviated
+-->
+
+
 <xml>
     <title type="essay">CRITICAL METHODS: SPECULATIVE FICTION</title>
     <p> The historical discussion of the development of some area of art, while often illuminating,
         does not necessarily exhaust that area. The development of a particular literary technique
         or theme over several decades through several writers, often in several countries, is not
         completely solved by a chronological listing of who did what first.</p>
-    <p> The historical literary critic tends to see literary progress as a process rather like this:
-        some seminal genius invents · a form; another refines it; still a third brings it to
-        heretofore unimagined perfection; while a later fourth now takes the form into decadence;
-        finally a new genius appears who, reacting against this decadence, invents a new form, and
-        the cycle begins again.</p>
+    <p paragraph="PoI"> The historical literary critic tends to see literary progress as a process
+        rather like this: some seminal genius invents · a form; another refines it; still a third
+        brings it to heretofore unimagined perfection; while a later fourth now takes the form into
+        decadence; finally a new genius appears who, reacting against this decadence, invents a new
+        form, and the cycle begins again.</p>
+    <!-- Paragraph describes a way of viewing literary progress -->
     <p> But this view only traces a single thread through what is essentially a tapestry of
         aesthetic productions. The line, by definition, tries to connect the high points. Frequently
         enough, these high points are, in reality, connected. But just as frequently they are
@@ -27,68 +34,73 @@
         uses it to ornament his own central concerns. It is still a little odd to look at whom some
         major authors felt to be their greatest influences. Thus <persName>Coleridge</persName> says
         that the sonnets of the country <persName>Reverend William Lisle Bowles</persName>, insipid
-        and artificial by today's standards, were the literary epiphany of his youth. And Keats was
-        practically fixated on the eighteenth-century boy-poet Thomas Chatterton, who, after
-        perpetrating a series of forgeries of Middle English poems, allegedly the work of a
-        nonexistent monk, Thomas Rowley, came to London and within the year committed suicide by
-        taking rat poison, aged seventeen years and nine months.</p>
+        and artificial by today's standards, were the literary <word type="marked"
+        >epiphany</word><!-- a manifestation of a divine or supernatural being. --> of his youth.
+        And Keats was practically fixated on the eighteenth-century boy-poet <persName>Thomas
+            Chatterton</persName>, who, after perpetrating a series of forgeries of <word type="term">Middle English</word>
+        poems, allegedly the work of a nonexistent monk, <persName>Thomas Rowley</persName>, came to
+            <location>London</location> and within the year committed suicide by taking rat poison,
+        aged seventeen years and nine months.</p>
     <p>Let us look at the development of one of the narrative techniques that practically alone
         supports science fiction: expertise-that method by which an author, deploying a handful of
         esoteric facts, creates the impression that he, or more often a character in his story, is
-        an expert in some given field. It was formulated as an outgrowth of French Naturalism by a
-        writer who began as a younger disciple of Zola, <persName>Joris Karl Huysmans</persName>. He
-        brought the technique to pitch in his extremely influential novel A Rebours, published in
-        1884, a year after <title>Treasure Island</title>, a year before <title>She</title>. But
-        where the <groupName>Naturalists</groupName> employed exhaustive research to give density to
-        their endless chronicles of common people at common professions, Huysmans used comparatively
+        an expert in some given field. It was formulated as an outgrowth of <word type="term">French
+            Naturalism</word><!--  Literary naturalism emphasizes observation and the scientific method in the fictional portrayal of reality. Naturalism includes detachment, in which the author maintains an impersonal tone and disinterested point of view; -->
+        by a writer who began as a younger disciple of
+        <persName>Zola</persName><!-- Well known writer and influence on French Naturalism -->,
+            <persName>Joris Karl Huysmans</persName>. He brought the technique to pitch in his
+        extremely influential novel <title type="book">A Rebours</title>, <Publication type="date">published in <year when="1884">1884</year>, a year after</Publication> <title type="book">Treasure
+            Island</title>, a year before <title type="book">She</title>. But where the
+            <groupName>Naturalists</groupName> employed exhaustive research to give density to their
+        endless chronicles of common people at common professions, <persName>Huysmans</persName> used comparatively
         superficial research to give an impression of thorough familiarity with a whole series of
-        bizarre and exotic subjects, including late Latin literature, horticulture, and perfumery,
+        bizarre and exotic subjects, including late <word type="term">Latin literature</word>, <word type="term">horticulture</word>, and <word type="book">perfumery</word>,
         to list only a few.</p>
-    <p> Till its recent reissue, I doubt if many currently working SF writers had read Huysman's
+    <p> Till its recent reissue, I doubt if many currently working SF writers had read <persName>Huysman's</persName>
         plotless, characterless, yet totally enthralling novel. But you can find the technique
-        employed in exactly the same manner in something as recent as Thomas Disch's Camp
-        Concentration. Still, though I cannot prove it, I am sure there is a line (more likely a
-        web) of writers who read writers who read Huysmans, and who took from one another this
+        employed in exactly the same manner in something as recent as <persName>Thomas Disch's</persName> <title type="book">Camp
+        Concentration</title>. Still, though I cannot prove it, I am sure there is a line (more likely a
+        web) of writers who read writers who read <persName>Huysmans</persName>, and who took from one another this
         obviously effective technique, as directly as <persName>Wilde</persName> took the cadences
-        and repetitions in the dialogue for Salome from <persName>Poe</persName>'s Politian.</p>
+        and repetitions in the dialogue for <title type="opera">Salome</title> from <persName>Poe's</persName> Politian.</p>
     <pb n="183"/>
-    <p>Indeed, we know Huysmans was familiar with Poe. Poe and Baudelaire are the most frequently
-        mentioned authors in A Rebours. Huysmans undoubtedly knew Poe through the superb Baudelaire
+    <p>Indeed, we know <persName>Huysmans</persName> was familiar with <persName>Poe</persName>. <persName>Poe</persName> and <persName>Baudelaire</persName> are the most frequently
+        mentioned authors in <title type="book">A Rebours</title>. <persName>Huysmans</persName> undoubtedly knew <persName>Poe</persName> through the superb <persName>Baudelaire</persName>
         translations, which, from their impact on French literature, quite possibly have more merit
-        than the originals. In A Rebours, The N arrative of A. Gordon Pym is mentioned by name, a
-        work which· Poe dots with much nautical expertise to make his sailor narrator convincing, on
-        a thoroughly unreal voyage to the South Pole, that ends with the appearance of the White
-        Goddess herself. This, and the similar use of expertise in the tales of ratiocination, could
-        easily have prompted Huysmans to make the jump between using expertise to validate the
+        than the originals. In <title type="book">A Rebours</title>, <title type="book">The N arrative of A. Gordon Pym</title> is mentioned by name, a
+        work which· <persName>Poe</persName> dots with much nautical expertise to make his sailor narrator convincing, on
+        a thoroughly unreal voyage to the <location>South Pole</location>, that ends with the appearance of the <persName type="character">White
+        Goddess</persName> herself. This, and the similar use of expertise in the tales of ratiocination, could
+        easily have prompted <persName>Huysmans</persName> to make the jump between using expertise to validate the
         commonplace to evoking the exotic and bizarre. (For those of you interested who are unable
-        to acquire the book, you can get some idea of the flavor of A Rebours from Chapter Eight of
-        Oscar Wilde's Picture of Dorian Grey, which is a pastiche of Huysmans; the mysterious
-        yellow-backed French novel after which Dorian patterns his life was immediately identified
-        by the Victorian public as A Rebours, which was confirmed by Wilde during the Queensbury
-        trial;. the book had achieved a reputation for decadence and corruption, as sexual oddities
-        were another subject that Huysmans explored with his newly perfected technique.)</p>
-    <p> One place where the connection is clearly drawn is in Alfred Bester's early horror novella,
-        Astarte Was a Lady. The opening of the novella is practically a rewrite of the opening
-        movements of A Rebours. The relation is so close that I am fairly sure that Bester, an
+        to acquire the book, you can get some idea of the flavor of <title type="book">A Rebours</title> from Chapter Eight of
+        <persName>Oscar Wilde's</persName> <title type="book">Picture of Dorian Grey</title>, which is a pastiche of <persName>Huysmans</persName>; the mysterious
+        yellow-backed French novel after which <persName>Dorian</persName> patterns his life was immediately identified
+        by the Victorian public as <title type="book">A Rebours</title>, which was confirmed by <persName>Wilde</persName> during the <name type="event">Queensbury
+        trial</name>;. the book had achieved a reputation for decadence and corruption, as sexual oddities
+        were another subject that <persName>Huysmans</persName> explored with his newly perfected technique.)</p>
+    <p> One place where the connection is clearly drawn is in <persName>Alfred Bester's</persName> early horror novella,
+        <title type="novella">Astarte Was a Lady</title>. The opening of the novella is practically a rewrite of the opening
+        movements of <title type="book">A Rebours</title>. The relation is so close that I am fairly sure that <persName>Bester</persName>, an
         erudite author who studs his work with overt .and covert literary references, was
-        undoubtedly familiar with it when Astarte was published in the late thirties in Unknown.</p>
-    <p>And Bester is easily the SF writer who brought expertise to its full fruition in his
+        undoubtedly familiar with it when Astarte was published in the late thirties in <title>Unknown</title>.</p>
+    <p>And <persName>Bester</persName> is easily the <abbr>SF</abbr> writer who brought expertise to its full fruition in his
         work.</p>
-    <p paragraph="split">Thus an SF literary technique has its burgeonings in an American fantasist,
-        passes over the ocean to be translated by a great poet, is furthered by a French fin de
-        siecle decadent, and returns a hundred years later to American magazine fiction. In the
+    <p paragraph="split">Thus an <abbr>SF</abbr> literary technique has its burgeonings in an <word type="term">American fantasist</word>,
+        passes over the ocean to be translated by a great poet, is furthered by a French <altLang language="French">fin de
+        siecle decadent</altLang>, and returns a hundred years later to American magazine fiction. In the
         early sixties, it moved</p>
     <pb n="184"/>
-    <p>away to support the pseudo-SF James-Bond-style thriller, which would thoroughly collapse
+    <p>away to support the <abbr>pseudo-SF</abbr> James-Bond-style thriller, which would thoroughly collapse
         without it. But this is the way the web of influence works, passing in and out of the genre,
         crossing national and language boundaries, and returning, completely frustrating the
         historical critic who would keep everything in its proper path.</p>
-    <p> In the same way, the didactic methods of Robert Heinlein owe a great deal to Shaw's comedies
-        of ideas, far more than to Wells and Verne. Indeed, part of that mystical optimism that
-        pervades so much of SF is a product of a process that we can see in the ending of Shaw's Man
-        and Superman, Twain's Mysterious Stranger, Kipling's Children of the Zodiac, and Poe's
-        Eukera, a process shared by such SF classics as Heinlein's Stranger in a Strange Land,
-        Clarke's Childhood End, Sturgeon's More Than Human, and Disch's Camp Concentration: any
+    <p> In the same way, the didactic methods of <persName>Robert Heinlein</persName> owe a great deal to <persName>Shaw's</persName> comedies
+        of ideas, far more than to <persName>Wells</persName> and <persName>Verne</persName>. Indeed, part of that mystical optimism that
+        pervades so much of <abbr>SF</abbr> is a product of a process that we can see in the ending of <persName>Shaw's</persName><title type="drama"> Man
+        and Superman</title>, <persName>Twain's</persName> <title type="novel">Mysterious Stranger</title>, <persName>Kipling's</persName> <title type="book">Children of the Zodiac</title>, and <persName>Poe's</persName><title type="book">
+        Eukera</title>, a process shared by such <abbr>SF</abbr> classics as <persName>Heinlein's</persName> <title type="novel">Stranger in a Strange Land</title>,
+        <persName>Clarke's</persName> <title type="novel">Childhood End</title>, <title type="novel">Sturgeon's More Than Human</title>, and <persName>Disch's</persName> <title type="novel">Camp Concentration</title>: any
         attempt to be totally rational about such a basically mystical subject as man's ultimate
         place in the universe tends to squeeze all the mysticism into one bright chunk that blurs
         all resolutions at the end.</p>
@@ -207,7 +219,7 @@
         naming nonexistent objects, then investing them with reality by a host of methods,
         technological and pseudotechnological explanations, imbedding them in dramatic situations,
         or just inculcating them by pure repetition: <pb n="189"/>
-        <list>
+        <list type="item">
             <Lo>Television</Lo>
             <Lo>Rocketship</Lo>
             <Lo>Waldo</Lo>
