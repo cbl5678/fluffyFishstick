@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+   <person><persName>HELEN ADAM</persName>
+       <!-- more info you provide like birth / death dates?-->
+       <birth when="1909"/>
+       <death when="1993"/>
+       <note source="quark">is a Scots-born poet, who now lives in
+    New York City. She is the co-author of the play <title>San
+    Francisco's Burning</title>, which has been presented in San
+    Francisco and in New York.</note>
+   </person>
+   <person> <persName>HILARY BAILEY</persName>
+       <note source="quark">most recent American publication
+    was the novella <title>The Fall of Frenchy Steiner</title>. She lives in
+    London, with her husband, Michael Moorcock.
+    GREG BENFORD's first novel, <title>Deeper than the Darkness</title>, is an expansion of his novelette of the same title,
+    which was nominated for the Nebula Award of the
+    Science Fiction Writers of America.</note>
+   </person>
+    <person><persName>JOAN BERNOTT</persName> 
+        <note source="quark">attended the Clarion College Science
+    Fiction Writers' Workshop.</note></person>
+    <person><persName>SANDRA BOUCHER</persName> <note source="quark">is a young writer who lives in San
+    Francisco.</note></person>
+    <person><persName>ED BRYANT</persName> 
+        <note source="quark">has a Master's degree in English from the
+    University of Wyoming. He lives in Los Angeles.</note></person>
+   <person> <persName>SAMUEL R. DELANY</persName> <note source="quark">lives currently in San Francisco.</note></person>
+    <person><persName>THOMAS M. DISCH</persName><note source="quark"> author of <title>Camp Concentration</title>,
+    <title>The Genocides</title>, and <title>Echo Round His Bones</title>, lives in New
+    York.</note>
+    </person>
+ <person><persName>GARDNER R. DOZOIS</persName> <note source="quark">recently returned to the United
+    States after spending four years abroad. He now lives in
+    New York City.</note></person>
+
+    <person><persName>GORDON EKLUND</persName> <note source="quark">lives with his wife and child in San
+    Francisco.</note></person>
+    <person><persName>RUSSELL FITZGERALD</persName> <note source="quark">is a painter, designer, and
+    writer. He lives in New York with his wife and twin
+    daughters.</note></person>
+    <person><persName>STEPHEN GILDEN</persName> <note source="quark">is a painter and cartoonist who has
+    lived in Texas, New York, and, currently, California.</note></person>
+    <person><persName>H. B. HICKEY</persName> <note source="quark">lives in Los Angeles.</note></person>
+   <person> <persName>R. A. LAFFERTY</persName> <note source="quark">is the author of <title>Space Chantey</title>, <title>The
+    Reefs of Earth</title>, <title>Past Master</title>, and, most recently, <title>Fourth
+    Mansions</title>.</note></person>
+   <person> <persName>URSULA K. LEGUIN</persName> <note source="quark">received the Nebula Award of the
+    Science Fiction Writers of America for her novel <title>The
+    Left Hand of Darkness</title>.</note></person>
+    <person><persName>LINK</persName> <note source="quark">is a young poet who lives in San Francisco. He
+    edited the literary magazine <title>Cow</title>.</note></person>
+    <person><persName>CHRISTOPHER PRIEST</persName> <note source="quark">is a young English writer.</note></person>
+    <person><persName>JOANNA RUSS</persName> <note source="quark">is the author of <title>And Chaos Died</title> and
+    <title>Picnic on Paradise</title>. She teaches creative writing at Cornell
+    University.</note></person>
+    <person><persName>GEORGE STANLEY</persName> <note source="quark">collection of poems, <title>You</title>, will
+    appear this winter from Grove Press, and will include
+    <title>Orion</title>.</note></person>
+    <person><persName>A. E. VAN VOGT</persName> <note source="quark">is the author of <title>The Silkie</title>, <title>The
+    Weapon Shops of lsher</title>, and <title>Sian</title>.</note> </person>
+  
+
+    
+</xml>

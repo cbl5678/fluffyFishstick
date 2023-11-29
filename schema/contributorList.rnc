@@ -11,9 +11,11 @@ death=element death {when, where*}
 when=attribute when {"unfindable"|xsd:date|xsd:gYear}
 where=attribute where {text}
 
-desc=element desc {text}
+desc=element desc {mixed{title*}}
 
-note=element note {source,text}
+note=element note {source, mixed{title*}}
+
+title = element title {text}
 
 source=attribute source {"quark"}
 
