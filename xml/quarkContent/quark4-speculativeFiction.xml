@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <header>
+        <issue>Quark 4</issue>
+        <date when="1971-08">August 1971</date>
+    </header>
+
+    <title>On Speculative Fiction</title>
+   
+    <p>"Even a simple assertion like 2+3=5 is simply a simulation of "the real world."
+        However, moving any of them even slightly (let alone shoving them all to the middle of the
+        desk) alters the mass, weight, and volume of all the others. The system of "rigorously
+        logical"arithmetic relationships is just one model of "the real." When we want to look at
+        "the real world" with higher accuracy and sophistication than the rural schoolhouse allows,
+        we need to employ models other than the arithmetically predictable to assist us understand
+        what we're looking at: A quantitative analyst must have tables to compensate for the
+        volumetric summation of various miscible liquids: Poured one pint of water"</p>
+        <signature>Samuel R. Delany and Marilyn Hacker, editors</signature>
+
+
+
+</xml>

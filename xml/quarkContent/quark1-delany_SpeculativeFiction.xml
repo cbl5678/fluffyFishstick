@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD:xml/delany_SpeculativeFiction.xml
 <!-- 
      pb = pageBottom 
      PoI = Point of Interest
@@ -6,7 +7,16 @@
 -->
 
 
+=======
+<!-- pb = pageBottom -->
+<?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
+>>>>>>> 24acc3c997edb5b0276d6304577f06252ba20fb9:xml/quarkContent/quark1-delany_SpeculativeFiction.xml
 <xml>
+    <header>
+        <issue>Quark 1</issue>
+        <date when="1970-11">November 1970</date>
+    </header>
+    
     <title type="essay">CRITICAL METHODS: SPECULATIVE FICTION</title>
     <p> The historical discussion of the development of some area of art, while often illuminating,
         does not necessarily exhaust that area. The development of a particular literary technique
@@ -27,7 +37,7 @@
         art~critic over-concentrates on two: the desire to imitate excellence, which, in genius,
         sometimes results in former excellence surpassed; and the distaste for the mediocre, the
         stultified, the inflexible, which, again in genius, can result in new forms.</p>
-    <p paragraph="split"> But there are other ways to be influenced. One artist may find a work that
+    <p> But there are other ways to be influenced. One artist may find a work that
         seems to him to have an interesting kernel, but strikes him as so badly executed that he
         feels he can treat the same substance far more rewardingly. More frequently, I suspect, he
         finds an interesting technique employed to decorate a vapid hollow center, and <pb n="182"/>
@@ -86,9 +96,15 @@
         undoubtedly familiar with it when Astarte was published in the late thirties in <title>Unknown</title>.</p>
     <p>And <persName>Bester</persName> is easily the <abbr>SF</abbr> writer who brought expertise to its full fruition in his
         work.</p>
+<<<<<<< HEAD:xml/delany_SpeculativeFiction.xml
     <p paragraph="split">Thus an <abbr>SF</abbr> literary technique has its burgeonings in an <word type="term">American fantasist</word>,
         passes over the ocean to be translated by a great poet, is furthered by a French <altLang language="French">fin de
         siecle decadent</altLang>, and returns a hundred years later to American magazine fiction. In the
+=======
+    <p>Thus an SF literary technique has its burgeonings in an American fantasist,
+        passes over the ocean to be translated by a great poet, is furthered by a French fin de
+        siecle decadent, and returns a hundred years later to American magazine fiction. In the
+>>>>>>> 24acc3c997edb5b0276d6304577f06252ba20fb9:xml/quarkContent/quark1-delany_SpeculativeFiction.xml
         early sixties, it moved</p>
     <pb n="184"/>
     <p>away to support the <abbr>pseudo-SF</abbr> James-Bond-style thriller, which would thoroughly collapse
@@ -104,7 +120,7 @@
         attempt to be totally rational about such a basically mystical subject as man's ultimate
         place in the universe tends to squeeze all the mysticism into one bright chunk that blurs
         all resolutions at the end.</p>
-    <p paragraph="split"> Contrary to what might be expected, it is much harder to trace the
+    <p> Contrary to what might be expected, it is much harder to trace the
         development of a strictly limited subject than of a general one. To take an absurd example:
         it would be fairly intriguing to discuss the growth of interest in late medieval, Gallic
         song-forms among poets of. the past hundred years. From Joyce's villanelle in Portrait of
@@ -116,7 +132,7 @@
         Rimbaud's "Le Coeur vole," go on to mention Ernest Dowson's and Lionel Johnson's attempts,
         (contemporaries of Yeats) and perhaps Sara Teasdale's "Why Do You Walk Through the Fields in
         Gloves" from the twenties. For what little it's worth, I would hazard a guess that Dowson
-        had read Rimbaud and that Teasdale had read Dow-<pb n="185">185</pb> son. But this gives us
+        had read Rimbaud and that Teasdale had read Dow-<pb n="185"/> son. But this gives us
         only a list, not a development. The fact is, the impulse to write one's first triolet is
         simply to see if one can do it. But once the form is learned, the impulse for the second or
         third might just as easily come from reading Gray's Anatomy as reading Milton, from the
@@ -145,7 +161,7 @@
         technology, in particular, develop in a more or less orderly way; and also that, in a given
         situation, human behavior will always be more or less the same, no matter when, or
         where.</p>
-    <p paragraph="split">Both of these views, however, are Victorian prejudices. Technology has
+    <p>Both of these views, however, are Victorian prejudices. Technology has
         always run in both constructive and destructive directions at once. While Rome's engineers
         built amazing stone aqueducts with engineering techniques that astound us today, her
         aristocracy was unintentionally committing mass suicide with lead-based cosmetics and
@@ -214,7 +230,7 @@
     <p> It is just this basic concern with thingness that makes me insist that the initial impulse
         behind SF, despite the primitive and vulgar verbal trappings, was closer to the impulse
         behind poetry than it was to the impulse behind ordinary narrative fiction.</p>
-    <p paragraph="split"> As another critic has said, in another context, "Poetry is concerned with
+    <p> As another critic has said, in another context, "Poetry is concerned with
         the thingness of things." The new American SF took on the practically incantatory task of
         naming nonexistent objects, then investing them with reality by a host of methods,
         technological and pseudotechnological explanations, imbedding them in dramatic situations,
@@ -346,19 +362,19 @@
         are examined in terms of what they contain of all these mythic views of the world. (Carl
         Becker has suggested that New Jerusalem and Brave New World are the only two new myths that
         the twentieth century has produced.) </p>
-    <p> It is absurd to argue whether Asimov's Foundation trilogy represents a Utopian or a
+    <p> It is absurd to argue whether Asimov's <title>Foundation</title> trilogy represents a Utopian or a
         Dystopian view of society; its theme is the way in which a series of interrelated societies,
         over a historical period, force each other at different times back and forth from Utopian to
         Dystopian phases.</p>
     <p>
-        <altFont type="bold"> In The Stars My Destination, the Jaunt Re-education program is clearly
+        <altFont type="bold"> In <title>The Stars My Destination</title>, the Jaunt Re-education program is clearly
             a product of New Jerusalem. Equally clearly, the Presteign Clan, with its four hundred
-            ninetyseven surgically identical Mr. Prestos, is from Brave New World. And they exist
+            ninetyseven surgically identical Mr. Prestos, is from <title>Brave New World</title>. And they exist
             side by side in the same work.</altFont>
     </p>
     <pb n="194"/>
 
-    <p>Gully, though he has been uniformed by Brave New World, begins as · an unformed lump of
+    <p>Gully, though he has been uniformed by <title>Brave New World</title>, begins as · an unformed lump of
         elemental violence, ignorance, and endurance from the Land of the Flies. Robin Wednesbury's
         home in the re-established forests of Greenbay, insulated from its neighbors, with her
         collection of books and records, exists in Arcadia. Gully I Cali ban implodes into it with
@@ -372,7 +388,6 @@
     <p>What I would like to see in serious SF criticism, among other things, is an examination of
         how all four of these mythic visions sit in concert in given works. And I would like to see
         an end to the lauding (or dismissal) of works because they do (or do not) reflect only one. </p>
-    <p name="">-Samuel R. Delany </p>
-    <blankSpace> </blankSpace>
+    <signature>Samuel R. Delany</signature>
     <pb n="195"/>
 </xml>

@@ -1,8 +1,38 @@
 start=xml
-xml=element xml {title, p+,signature}
+xml=element xml {header, title, (epigraph | p | pb | signature)+ }
 
-title=element title {type*}
+header = element header {issue, date}
 
-type=attribute type {text}
+issue = element issue {text}
 
-p=element p {{mixed{text|persName| title|groupName}}}
+date = element date {when, text}
+
+when = attribute when {xsd:date | xsd:gYearMonth| xsd:gYear}
+
+epigraph = element epigraph {p+, cit}
+
+cit = element cit {mixed{persName, title}}
+
+signature = element signature {text}
+
+title=element title {type?, text}
+
+type=attribute type {"essay" | "summary" | "bold" | text}
+
+p=element p {mixed{ (num | persName| title|groupName | pb | \list | altFont)*}}
+
+num = element num {xsd:float}
+
+altFont = element altFont {type, mixed{ (persName| title|groupName | pb | \list | altFont)*}}
+
+\list=element list {Lo+}
+
+Lo = element Lo {text}
+
+pb = element pb {n, empty}
+
+n = attribute n {xsd:integer}
+
+groupName = element groupName {text}
+
+persName = element persName {text}

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
+    <header><!-- What you're encoding are called paratexts. These are not the main texts, but the ones that border the issue, and provide context, information about it. -->
+        <issue>Quark 3</issue>
+        <date when="1971-05">May 1971</date>
+    </header>
+    
     <title>speculative fiction</title>
     <p>All fiction is speculative.</p>
     <p>Its tools are words, and its building process is human thought or imagination. Its point of
@@ -12,10 +17,6 @@
     <p>This is a tribute to imagination, an invocation of the possible, as grim as headlines, as
         gorgeous as invention.</p>
     <p>This is a quarterly of speculative fiction.</p>
-    <signature of="authors">
-        <lb/>
-        <author>Samuel R. Delany</author>
-        <lb/>
-        <author> Marilyn Hacker</author>
-    </signature>
+    <signature>Samuel R. Delany</signature>
+    <signature>Marilyn Hacker</signature>
 </xml>

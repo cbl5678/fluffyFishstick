@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <person>
         <persName>Helen Adam</persName>
@@ -8,8 +8,8 @@
         <death when="1993-09-19"/>
         <desc>was a Scottish poet, collagist, and photographer who was part of a literary movement
             in San Francisco during the 1950s and 1960s that coincided with the Beat Generation. </desc>
-        <note source="quark"> is a Scots-born poet, now living in New York. Her play. San
-            Francisco's Burning, written in col-laboration with Pat Adam, has been presented in San
+        <note source="quark"> is a Scots-born poet, now living in New York. Her play, <title>San
+            Francisco's Burning</title>, written in collaboration with Pat Adam, has been presented in San
             Francisco and in New York. </note>
     </person>
         
@@ -30,8 +30,8 @@
             <desc>was an American writer of fantasy fiction, science fiction, and criminal fiction,
                 as well as many stories that do not fit into a genre specialty. </desc>
             <note source="quark"> has been a writer for two decades, and an editor for three years.
-                Two of his most recent novels are The Phoenix And The Mirror, and The Island Under
-                The Earth. </note>
+                Two of his most recent novels are <title>The Phoenix And The Mirror</title>, and <title>The Island Under
+                The Earth</title>. </note>
            
             
         </person>
@@ -42,7 +42,7 @@
             <death when="2008-07-04"/>
             <desc>was a poet and science fiction writer from America. In 1999, he received the Hugo
                 Award for Best Related Book (formerly known as "Best Non-Fiction Book"). </desc>
-            <note source="quark"> is the author of The Genocides and Camp Concentration. </note>
+            <note source="quark"> is the author of <title>The Genocides and Camp Concentration</title>. </note>
         </person>
         <person>
             <persName>Philip Jose Farmer</persName>
@@ -51,9 +51,9 @@
             <death when="2009-02-25"/>
             <desc>An American novelist and short story writer best known for his science fiction and
                 fantasy novels and short stories. Farmer is most known for his novel series,
-                particularly his World of Tiers (1965-93) and Riverworld (1971-83) series. </desc>
-            <note source="quark"> is the author of Flesh, The Lovers, Blown, and Riders Of The
-                Purple Wage, among many other titles.</note>
+                particularly his <title>World of Tiers</title> (1965-93) and<title> Riverworld</title> (1971-83) series. </desc>
+            <note source="quark"> is the author of <title>Flesh</title>, <title>The Lovers</title>, <title>Blown</title>, and <title>Riders Of The
+                Purple Wage</title>, among many other titles.</note>
         </person>
         <person>
             <persName>Marilyn Hacker</persName>
@@ -87,7 +87,7 @@
             <desc>McIntyre established the Clarion West Writers Workshop in Seattle, Washington, in
                 1971, with the help of Clarion founder Robin Scott Wilson. She worked at the
                 workshop until 1973.</desc>
-            <note source="quark"> lives in Washington. She at-tended the workshop for
+            <note source="quark"> lives in Washington. She attended the workshop for
                 science-fiction writers at Clarion College. </note>
         </person>
         <person>
@@ -97,18 +97,18 @@
             <death when="unfindable"/>
             <desc>is an English-American writer best known for his science fiction and fantasy
                 books, as well as comic thrillers, graphic novels, and non-fiction. </desc>
-            <note source="quark"> is the editor of New Worlds, and the author of Behold The Man, The
-                Final Programme, and The Black Corridor, among many other titles. </note>
+            <note source="quark"> is the editor of <title>New Worlds</title>, and the author of <title>Behold The Man</title>, <title>The
+                Final Programme</title>, and <title>The Black Corridor</title>, among many other titles. </note>
         </person>
         <person>
             <persName>Larry Niven</persName>
             
             <birth when="1938-04-30"/>
            
-            <desc>is an American science fiction writer. His 1970 novel Ringworld received the Hugo,
+            <desc>is an American science fiction writer. His 1970 novel <title>Ringworld</title> received the Hugo,
                 Locus, Ditmar, and Nebula awards. </desc>
             <note source="quark"> won the Hugo Award for his story Neutron Star and his most recent
-                novel, Ring World.</note>
+                novel, <title>Ring World</title>.</note>
         </person>
     
     <person>
@@ -127,8 +127,8 @@
         <death when="unfindable"/>
         <desc>is a Canadian author, media critic, and philosophy professor. </desc>
         <note source="quark"> is a member of the University of British Columbia faculty and the
-            editor of the Georgia Straight Writing Supplement. He was the creator and editor of Open
-            Space, a poetry magazine in San Francisco. </note>
+            editor of the Georgia Straight Writing Supplement. He was the creator and editor of <title>Open
+            Space</title>, a poetry magazine in San Francisco. </note>
     </person>
     <person>
         <persName>Charles Platt</persName>
@@ -136,7 +136,7 @@
         <birth when="1945-04-26"/>
         <death when="unfindable"/>
         <desc>British author and journalist</desc>
-        <note source="quark"> is the author of Garbage World, The City Dwellers, and Planet of the
-            Voles.</note>
+        <note source="quark"> is the author of <title>Garbage World</title>, <title>The City Dwellers</title>, and <title>Planet of the
+            Voles</title>.</note>
     </person>
 </xml>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <page n="1">
+        <source>
+
+            <title>quark/#1</title>
+            <sub>a quarterly of speculative fiction</sub>
+
+            <author name="last">adam</author>
+            <author name="last">bailey</author>
+            <author name="last">benford</author>
+            <author name="last">bernott</author>
+            <author name="last">boucher</author>
+            <author name="last">bryant</author>
+            <author name="last">delany</author>
+            <author name="last">disch</author>
+            <author name="last">dozois</author>
+            <author name="last">eklund</author>
+            <author name="last">fitzgerald</author>
+            <author name="last">gilden</author>
+            <author name="last">hickey</author>
+            <author name="last">lafferty</author>
+            <author name="last">le guin</author>
+            <author name="last">link</author>
+            <author name="last">priest</author>
+            <author name="last">russ</author>
+            <author name="last">stanley</author>
+            <author name="last">van vogt</author>
+        </source>
+    </page>
+    <page n="2">
+        <pageHeader title="QUARK/1">QUARK/1</pageHeader>
+        <p>is the first issue of a new quarterly of speculative literature and graphics, selected
+            and edited by Samuel R. Delany and Marilyn Hacker. The editors have tried to display the
+            finest work of both new and established authors, whatever its imaginative substance,
+            structure, or texture.</p>
+    </page>
+    <page n="3">
+        <p>
+            <font type="bold" size="large">QUARK/1</font>
+            <font type="bold">
+                <author> adam</author>
+                <author> bailey</author>
+                <author> benford</author>
+                <author> bernott</author>
+                <author> boucher</author>
+                <author> bryant</author>
+                <author> delany</author>
+                <author> disch</author>
+                <author> dozois</author>
+                <author> eklund</author>
+                <author> hickey</author>
+                <author> lafferty</author>
+                <author> le guin</author>
+                <author> link</author>
+                <author> priest</author>
+                <author> russ</author>
+                <author> stanley</author>
+                <author> van vogt</author>
+            </font>
+        </p>
+    </page>
+    <page n="4">
+        <pageHeader>QUARK/1</pageHeader>
+        <source>
+            <text>edited by <editor><name name="full">Samuel R. Delany</name></editor> and
+                        <editor><name name="full">Marilyn Hacker</name></editor></text>
+            <pageInformation>
+                <font type="uppercase">PAPERBACK LIBRARY</font>
+                <location type="state">New York</location>
+            </pageInformation>
+        </source>
+    </page>
+    <page n="5">
+        <pageHeader>PAPERBACK LIBRARY EDITION</pageHeader>
+        <text>First Printing: November, 1970</text>
+        <source>
+            <text>Copyright © <date type="xs:gYear">1970</date> by <company type="copyright">Coronet
+                    Communications, Inc.</company></text>
+            <text>Paperback Library is a division of Coronet Communications, Inc. Its trademark,
+                consisting of the words "Paperback Library" accompanied by an open book, is
+                registered in the United States Patent Office. Coronet Communications, Inc., 315
+                Park Avenue South, New York, N.Y. 10010.</text>
+        </source>
+    </page>
+    <page n="6">
+        <pageHeader>CONTENTS</pageHeader>
+        <contentList>
+            <text pageSec="6"><chapterHead>Frontispiece by Stephen Gilden</chapterHead>
+                ....................... 6</text>
+            <text pageSec="7"><chapterHead>Editorial by Samuel R. Delany &amp; Marilyn
+                    Hacker</chapterHead> ...... 7</text>
+            <text pageSec="8"><chapterHead>The Cliff Climbers by R. A. Lafferty</chapterHead>
+                ....................... 8</text>
+            <text pageSec="14"><chapterHead>The Sound of Muzak by Gardner R. Dozois</chapterHead>
+                ............. 14 </text>
+            <text pageSec="36"><chapterHead>A Trip to the Head by Ursula K. Le Guin</chapterHead>
+                ............... 36 </text>
+            <text pageSec="43"><chapterHead>Let Us Quickly Hasten to the Gate of Ivory by Thomas M.
+                    Disch</chapterHead> .......................................... 43 </text>
+            <text pageSec="62"><chapterHead>Inalienable Rite by Gregory Benford</chapterHead>
+                .......................... 62</text>
+            <text pageSec="68"><chapterHead>Orion by George Stanley</chapterHead>
+                ............................................. 68</text>
+            <text pageSec="69"><chapterHead>The View From This Window by Joanna Russ</chapterHead>
+                ............ 69 </text>
+            <text pageSec="89"><chapterHead>Gone Are the Lupo by H. B. Hickey</chapterHead>
+                ...................... 89</text>
+            <text pageSec="97"><chapterHead>Fire Storm by Christopher Priest</chapterHead>
+                ................................ 97 </text>
+            <text pageSec="113"><chapterHead>Getting To Know You by Link</chapterHead>
+                .................................. 113 </text>
+            <text pageSec="115"><chapterHead>Dogman of Islington by Hilary Bailey</chapterHead>
+                ..................... 115 </text>
+            <text pageSec="134"><chapterHead>Shades by Sandy Boucher</chapterHead>
+                .................................. 134 </text>
+            <text pageSec="139"><chapterHead>Twelve Ancillary Animations for the QUARK/ Cover Called
+                    Appomattox by Russell FitzGerald</chapterHead> .... 139 </text>
+            <text pageSec="162"><chapterHead>Car thing by A. E. Van Vogt</chapterHead>
+                .................................... 162 </text>
+            <text pageSec="164"><chapterHead>Daughter of Roses by Helen Adam</chapterHead>
+                ............................ 164</text>
+            <text pageSec="166"><chapterHead>Adrift on the Freeway by Ed Bryant</chapterHead>
+                .......................... 166 </text>
+            <text pageSec="177"><chapterHead>My Father's Guest by Joan Bernott</chapterHead>
+                ............................ 177 </text>
+            <text pageSec="182"><chapterHead>Critical Methods: Speculative Fiction by Samuel R.
+                    Delany</chapterHead>
+                ............................................................... 182 </text>
+            <text pageSec="196"><chapterHead>Ramona, Come Softly by Gordon Eklund</chapterHead>
+                .................. 196 </text>
+            <text pageSec="229"><chapterHead>Six Drawings by Stephen Gilden</chapterHead>
+                ................................. 229 </text>
+            <text pageSec="238"><chapterHead>Contributors' Notes</chapterHead>
+                ................................................... 238 </text>
+        </contentList>
+    </page>
+</xml>
