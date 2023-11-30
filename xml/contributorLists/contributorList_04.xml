@@ -20,8 +20,8 @@
             Francisco and in New York. </note>
           <toc>
               <entry>
-                  <title></title>
-                  <pages></pages>
+                  <title>The True Reason for the Dreadful Death of Mr. Rex Arundel</title>
+                  <pages>86 - 109</pages>
               </entry>
           </toc>
     </person>
@@ -52,12 +52,24 @@
                 The Earth</title>. </note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Basileikon: Summer</title>
+                    <pages>11 - 19</pages>
                 </entry>
             </toc>
             
         </person>
+          
+          <person><!-- ebb: Taken from issue 1 because he's not represented in the contributor list of Quark 4. -->
+              <persName>Samuel R. Delany</persName>
+              <note source="quark">lives currently in San Francisco.</note>
+              <toc>
+                  <entry>
+                      <title>On Speculative Fiction</title>
+                      <pages>7 - 10</pages>
+                  </entry>
+              </toc>
+          </person>
+
         <person>
             <persName>Thomas M. Disch</persName>
             
@@ -68,13 +80,13 @@
             <note source="quark"> is the author of <title>The Genocides and Camp Concentration</title>. </note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Bodies</title>
+                    <pages>121 - 161</pages>
                 </entry>
             </toc>
         </person>
         <person>
-            <persName>Philip Jose Farmer</persName>
+            <persName>Philip José Farmer</persName>
             
             <birth when="1918-01-26"/>
             <death when="2009-02-25"/>
@@ -86,8 +98,8 @@
             
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Brass and Gold</title>
+                    <pages>49 - 64</pages>
                 </entry>
             </toc>
         </person>
@@ -129,8 +141,8 @@
             <note source="quark"> lives in Philadelphia, where she is working on a novel.</note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Acid Soap Opera</title>
+                    <pages>110 - 120</pages>
                 </entry>
             </toc>
         </person>
@@ -146,8 +158,8 @@
                 science-fiction writers at Clarion College. </note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Cages</title>
+                    <pages>163 - 174</pages>
                 </entry>
             </toc>
         </person>
@@ -162,8 +174,8 @@
                 Final Programme</title>, and <title>The Black Corridor</title>, among many other titles. </note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>Voortrekker</title>
+                    <pages>20 - 48</pages>
                 </entry>
             </toc>
         </person>
@@ -178,8 +190,8 @@
                 novel, <title>Ring World</title>.</note>
             <toc>
                 <entry>
-                    <title></title>
-                    <pages></pages>
+                    <title>The Fourth Profession</title>
+                    <pages>186 - 237</pages>
                 </entry>
             </toc>
         </person>
@@ -194,8 +206,8 @@
             novel.</note>
         <toc>
             <entry>
-                <title></title>
-                <pages></pages>
+                <title>A Man of Letters</title>
+                <pages>175 - 185</pages>
             </entry>
         </toc>
     </person>
@@ -208,6 +220,7 @@
         <note source="quark"> is a member of the University of British Columbia faculty and the
             editor of the Georgia Straight Writing Supplement. He was the creator and editor of <title>Open
             Space</title>, a poetry magazine in San Francisco. </note>
+        <note source="projectTeam">Not represented in the table of contents.</note>
         <toc>
             <entry>
                 <title></title>
@@ -225,8 +238,8 @@
             Voles</title>.</note>
         <toc>
             <entry>
-                <title></title>
-                <pages></pages>
+                <title>Norman vs. America</title>
+                <pages>65 - 85</pages>
             </entry>
         </toc>
     </person>

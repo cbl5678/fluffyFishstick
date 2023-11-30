@@ -29,7 +29,7 @@ note=element note {source, mixed{title*}}
 
 title = element title {text}
 
-source=attribute source {"quark"}
+source=attribute source {"quark" | "projectTeam"}
 
 
 
