@@ -1,0 +1,106 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #333; 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    height:auto;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+    /*  background-color: #ffeb3b; */
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f7dc6f;
+    color: black;
+}
+
+td:nth-child(1), th:nth-child(1) {
+    width: 30%;
+}
+
+td:nth-child(2), th:nth-child(2) {
+    width: 20%;
+}
+
+td:nth-child(3), th:nth-child(3) {
+    width: 50%;
+}
+
+
+/*  tr:hover {*/
+th:hover, td:hover {
+    background-color: #333;
+    color: #FFDEAD;
+    transition: background-color 0.5s, color 0.4s;
+}
+
+
+header {
+    background-color: #FFDEAD;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+.photo {width:300px;
+height:auto;
+background-color:#FFDEAD;
+border:solid black 3px;
+ margin-left: auto;
+  margin-right: auto;
+  color:black;
+  margin-top:10px;
+  margin-bottom:10px;}
+#quarkPhoto {
+    width: 200px;
+    
+    text-align: center;
+    margin-left: 50px;
+  margin-right: 50px;
+}
+#quark02{margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  border:solid black 5px}
+  
+  .paragraph{background-color:black;
+  border-top:solid white 5px;
+  border-bottom:solid white 5px;}
+
+#home{width:50px;
+height:25px;
+background-color:black;
+margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color:white ;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
