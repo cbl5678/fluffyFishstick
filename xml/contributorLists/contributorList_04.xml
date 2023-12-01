@@ -2,7 +2,14 @@
 
 <?xml-model href="../../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
-    <person>
+    <header>
+        <title>Quark / 4</title>
+        <editor>Samuel R. Delaney</editor>
+        <editor>Marilyn Hacker</editor>
+        <issue>4</issue>
+    </header>
+  <listPerson>  
+      <person>
         <persName>Helen Adam</persName>
         <birth when="1909-12-02"/>
         <death when="1993-09-19"/>
@@ -11,6 +18,12 @@
         <note source="quark"> is a Scots-born poet, now living in New York. Her play, <title>San
             Francisco's Burning</title>, written in collaboration with Pat Adam, has been presented in San
             Francisco and in New York. </note>
+          <toc>
+              <entry>
+                  <title>The True Reason for the Dreadful Death of Mr. Rex Arundel</title>
+                  <pages>86 - 109</pages>
+              </entry>
+          </toc>
     </person>
         
        
@@ -20,7 +33,12 @@
             <death when="unfindable"/>
             <note source="quark">is a young poet from Vancouver, now studying at London
                 University.</note>
-            
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
 
         </person>
         <person>
@@ -32,9 +50,26 @@
             <note source="quark"> has been a writer for two decades, and an editor for three years.
                 Two of his most recent novels are <title>The Phoenix And The Mirror</title>, and <title>The Island Under
                 The Earth</title>. </note>
-           
+            <toc>
+                <entry>
+                    <title>Basileikon: Summer</title>
+                    <pages>11 - 19</pages>
+                </entry>
+            </toc>
             
         </person>
+          
+          <person><!-- ebb: Taken from issue 1 because he's not represented in the contributor list of Quark 4. -->
+              <persName>Samuel R. Delany</persName>
+              <note source="quark">lives currently in San Francisco.</note>
+              <toc>
+                  <entry>
+                      <title>On Speculative Fiction</title>
+                      <pages>7 - 10</pages>
+                  </entry>
+              </toc>
+          </person>
+
         <person>
             <persName>Thomas M. Disch</persName>
             
@@ -43,9 +78,15 @@
             <desc>was a poet and science fiction writer from America. In 1999, he received the Hugo
                 Award for Best Related Book (formerly known as "Best Non-Fiction Book"). </desc>
             <note source="quark"> is the author of <title>The Genocides and Camp Concentration</title>. </note>
+            <toc>
+                <entry>
+                    <title>Bodies</title>
+                    <pages>121 - 161</pages>
+                </entry>
+            </toc>
         </person>
         <person>
-            <persName>Philip Jose Farmer</persName>
+            <persName>Philip José Farmer</persName>
             
             <birth when="1918-01-26"/>
             <death when="2009-02-25"/>
@@ -54,15 +95,30 @@
                 particularly his <title>World of Tiers</title> (1965-93) and<title> Riverworld</title> (1971-83) series. </desc>
             <note source="quark"> is the author of <title>Flesh</title>, <title>The Lovers</title>, <title>Blown</title>, and <title>Riders Of The
                 Purple Wage</title>, among many other titles.</note>
+            
+            <toc>
+                <entry>
+                    <title>Brass and Gold</title>
+                    <pages>49 - 64</pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>Marilyn Hacker</persName>
-            
             <birth when="1936-11-27"/>
-            
             <desc>Marilyn Hacker is an American poet, translator, and critic. She is an emerita
                 Professor of English at City College of New York. </desc>
             <note source="quark"> lives in San Francisco.</note>
+            <toc>
+                <entry>
+                    <title>On Speculative Fiction</title>
+                    <pages>7 - 10</pages>
+            </entry>
+               <entry>
+                   <title>Nightsong</title>
+                   <pages>162</pages>
+               </entry>
+            </toc>
         </person>
         <person>
             <persName>Martin Last</persName>
@@ -70,6 +126,12 @@
             <birth when="1930"/>
             <death when="2006-06-06"/>
             <note source="quark"> he cover artist, lives in New York.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>Gail Madonia</persName>
@@ -77,7 +139,12 @@
             <birth when="unfindable"/>
             <death when="unfindable"/>
             <note source="quark"> lives in Philadelphia, where she is working on a novel.</note>
-
+            <toc>
+                <entry>
+                    <title>Acid Soap Opera</title>
+                    <pages>110 - 120</pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>Vonda N. Mcintyre</persName>
@@ -89,6 +156,12 @@
                 workshop until 1973.</desc>
             <note source="quark"> lives in Washington. She attended the workshop for
                 science-fiction writers at Clarion College. </note>
+            <toc>
+                <entry>
+                    <title>Cages</title>
+                    <pages>163 - 174</pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>Michael Moorcook</persName>
@@ -99,6 +172,12 @@
                 books, as well as comic thrillers, graphic novels, and non-fiction. </desc>
             <note source="quark"> is the editor of <title>New Worlds</title>, and the author of <title>Behold The Man</title>, <title>The
                 Final Programme</title>, and <title>The Black Corridor</title>, among many other titles. </note>
+            <toc>
+                <entry>
+                    <title>Voortrekker</title>
+                    <pages>20 - 48</pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>Larry Niven</persName>
@@ -109,6 +188,12 @@
                 Locus, Ditmar, and Nebula awards. </desc>
             <note source="quark"> won the Hugo Award for his story Neutron Star and his most recent
                 novel, <title>Ring World</title>.</note>
+            <toc>
+                <entry>
+                    <title>The Fourth Profession</title>
+                    <pages>186 - 237</pages>
+                </entry>
+            </toc>
         </person>
     
     <person>
@@ -119,6 +204,12 @@
         <desc>.</desc>
         <note source="quark"> is living on an island Kingston, Ontario, where he is completing a
             novel.</note>
+        <toc>
+            <entry>
+                <title>A Man of Letters</title>
+                <pages>175 - 185</pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>Stan Persky</persName>
@@ -129,6 +220,13 @@
         <note source="quark"> is a member of the University of British Columbia faculty and the
             editor of the Georgia Straight Writing Supplement. He was the creator and editor of <title>Open
             Space</title>, a poetry magazine in San Francisco. </note>
+        <note source="projectTeam">Not represented in the table of contents.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>Charles Platt</persName>
@@ -138,5 +236,12 @@
         <desc>British author and journalist</desc>
         <note source="quark"> is the author of <title>Garbage World</title>, <title>The City Dwellers</title>, and <title>Planet of the
             Voles</title>.</note>
+        <toc>
+            <entry>
+                <title>Norman vs. America</title>
+                <pages>65 - 85</pages>
+            </entry>
+        </toc>
     </person>
+  </listPerson>
 </xml>

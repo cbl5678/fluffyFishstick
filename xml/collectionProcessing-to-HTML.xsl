@@ -27,6 +27,8 @@
                 <title>Contributing Authors Table</title>
                 <!--  CSS LINK LINE HERE!   <link/>-->
             </head>
+            
+            <body>
 
             <table>
                 <tr>
@@ -55,6 +57,7 @@
 
                 </xsl:for-each>
             </table>
+            </body>
         </html>
 
     </xsl:template>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
+    <header>
+        <title>Quark / 3</title>
+        <editor>Samuel R. Delaney</editor>
+        <editor>Marilyn Hacker</editor>
+        <issue>3</issue>
+    </header>
     
-        <person>
+     <listPerson>   <person>
             <persName>HILARY BAILEY</persName>
             
             <birth when="1936-09-19"/>
@@ -14,6 +20,13 @@
                 sequel to <title>Jane Eyre</title>, and <title>Fifty-First State</title> (2008).</desc>
             <note source="quark"> lives in London with her husband, Michael Moorcock, and their two
                 daughters. She is presently working on a novel.</note>
+         <toc>
+             <entry>
+                 <title></title>
+                 <pages></pages>
+             </entry>
+         </toc>
+         
         </person>
         <person>
             <persName>SAMUEL R. DELANY</persName>
@@ -23,6 +36,12 @@
                 science fiction), memoir, criticism, and essays on science fiction, literature,
                 sexuality, and society.</desc>
             <note source="quark">is currently living in New York.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>SONYA DORMAN</persName>
@@ -45,6 +64,12 @@
                 retroactive award for <title>"When I Was Miss Dow"</title> (1963, reprinted in Galaxy 1966).</desc>
             <note source="quark">'s book, <title>Poems</title> was recently published by the Ohio University
                 Press.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>GORDON EKLUND</persName>
@@ -55,6 +80,12 @@
                     one instance under the name of the late E. E. "Doc" Smith.</desc>
             <note source="quark">lives in Berkeley with his wife and child, and recently finished
                 and sold his first novel.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName> M. JOHN HARRISON</persName>
@@ -66,6 +97,12 @@
                 Space</title>.</desc>
             <note source="quark"> lives in London. His work has appeared on both sides of the
                 Atlantic, and he is working on his first novel.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>RICHARD HILL</persName>
@@ -73,6 +110,12 @@
                     /><death when="unfindable"/>
             <note source="quark">'s novel, <title>Ghost Story</title>, is scheduled to appear this spring. His work
                 has been in <title>Orbit</title>, and will be in <title>Again, Dangerous Visions</title>.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>VIRGINIA KIDD</persName>
@@ -85,6 +128,12 @@
             <note source="quark"> lives in Milford, Pennsylvania, from where she edits <title>Kinesis</title>, a
                 poetry magazine. Her work has appeared in <title>Orbit</title>, and she is working on a novel.
             </note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>R. A. LAFFERTY</persName>
@@ -96,6 +145,12 @@
                     book, and several novels of historical fiction.</desc>
             <note source="quark">is the author of <title>Past Master</title>, <title>The Reefs of Earth</title>, and <title>Fourth
                 Mansions</title>. </note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>ROBERT LA VIGNE</persName>
@@ -110,6 +165,12 @@
             <note source="quark">is a painter and stage designer, presently living in New York. He
                 received the Obie Award for set design in 1968, for his sets and costumes for <title>A
                 Midsummer Night's Dream</title>.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>ROGER PENNEY</persName>
@@ -117,6 +178,12 @@
                     when="unfindable"/>
                 <death when="unfindable"/>
             <note source="quark">, the cover artist, lives in San Diego, California.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>JOANNA RUSS</persName>
@@ -129,6 +196,12 @@
             <note source="quark"> is the author of <title>Picnic On Paradise</title>, and <title>And Chaos Died</title>, recently
                 nominated for the Nebula Award of the Science Fiction Writers of America. She lives
                 in Ithaca, New York, and teaches at Cornell University.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>JAMES SALLIS</persName>
@@ -141,6 +214,12 @@
             <note source="quark">' book of stories and poetry, <title>A Few Last Words</title>, was published last
                 fall. He is working on more poems, stories, a novel, and a book on American country
                 and western music.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>JOSEPHINE SAXTON</persName>
@@ -153,6 +232,12 @@
                 for the 1987 Arthur C. Clarke Award. She lives in Warwickshire.</desc>
             <note source="quark"> is the author of <title>The Hieros Gamos Of Sam And An Smith</title>. Her new
                 novel, <title>Vector For Seven</title>, is scheduled to appear soon.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>DONALD SIMPSON</persName>
@@ -168,6 +253,12 @@
                 Right</title>.</desc>
             <note source="quark"> lives in Berkeley, California, where he draws, paints, and creates
                 elegant machines.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>GEORGE STANLEY</persName>
@@ -176,6 +267,12 @@
             <death when="unfindable"/>
             <note source="quark">lives in San Francisco. His collected poems will appear from the
                 Grove Press this year, and he is presently writing a book-length prose work.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>TOM VEITCH</persName>
@@ -194,6 +291,12 @@
             <note source="quark"> commutes from New York to San Fran-cisco. His work has appeared in
                 many poetry magazines and anthologies, and he is the co-author, with Ron Padg-ett,
                 of the novel Star Gut.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>BRIAN VICKERS</persName>
@@ -201,6 +304,12 @@
             <birth when="unfindable"/>
             <death when="unfindable"/>
             <note source="quark">lives in Yorkshire, England.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
         <person>
             <persName>KATE WILHELM</persName>
@@ -213,6 +322,13 @@
                 husband Damon Knight and writer Robin Scott Wilson.</desc>
             <note source="quark">is the author of many novels and collections of stories. Her latest
                 novel, <title>Margaret And I</title> is scheduled for publication this year.</note>
+            <toc>
+                <entry>
+                    <title></title>
+                    <pages></pages>
+                </entry>
+            </toc>
         </person>
+     </listPerson>
     
 </xml>

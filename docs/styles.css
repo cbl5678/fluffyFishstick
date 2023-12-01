@@ -1,42 +1,3 @@
-/*  body {
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: #333;
-    
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    background-color: #ffeb3b;
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #f7dc6f;
-}
-
-
-td:nth-child(1), th:nth-child(1) {
-    width: 30%;
-}
-
-td:nth-child(2), th:nth-child(2) {
-    width: 20%;
-}
-
-td:nth-child(3), th:nth-child(3) {
-    width: 50%;
-}
-
-*/
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a1a; /* Dark background color */
@@ -49,13 +10,13 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 th, td {
     /*  background-color: #ffeb3b; */
     border: 1px solid #ddd;
-    padding: 10px; /* Increase padding for better spacing */
+    padding: 10px;
     text-align: left;
 }
 
@@ -64,7 +25,6 @@ th {
     color: black;
 }
 
-/* Define columns */
 td:nth-child(1), th:nth-child(1) {
     width: 30%;
 }
@@ -78,7 +38,8 @@ td:nth-child(3), th:nth-child(3) {
 }
 
 
-tr:hover {
+/*  tr:hover {*/
+th:hover, td:hover {
     background-color: #333;
     color: #f7dc6f;
     transition: background-color 0.3s, color 0.3s;

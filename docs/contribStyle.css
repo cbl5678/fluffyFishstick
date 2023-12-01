@@ -1,0 +1,17 @@
+body {
+    background-color: tan;
+    
+}
+
+body, h1, p {
+   margin: 5%;
+    
+}
+
+/*  CSS table styling hints at w3schools: https://www.w3schools.com/css/css_table.asp  */
+table, tr, th, td { border: 1px solid purple;
+    border-collapse: collapse;
+}
+
+th {background-color: white;}
+

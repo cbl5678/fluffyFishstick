@@ -1,7 +1,19 @@
 start = xml
 
-xml = element xml {person+}
-person = element person {persName, birth*, death*, desc*, note*}
+xml = element xml {header, listPerson}
+
+header = element header {title, editor*, issue}
+editor = element editor {text}
+issue = element issue {xsd:integer}
+
+listPerson = element listPerson {person+}
+person = element person {persName, birth*, death*, desc*, note*, toc}
+
+toc = element toc {entry+}
+
+entry = element entry {title, pages}
+
+pages = element pages {text}
 
 persName=element persName {text}
 
@@ -17,7 +29,7 @@ note=element note {source, mixed{title*}}
 
 title = element title {text}
 
-source=attribute source {"quark"}
+source=attribute source {"quark" | "projectTeam"}
 
 
 

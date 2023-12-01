@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
-    <person>
+    <header>
+        <title>Quark / 2</title>
+        <editor>Samuel R. Delaney</editor>
+        <editor>Marilyn Hacker</editor>
+        <issue>2</issue>
+    </header>
+    <listPerson><person>
         <persName>JOAN BERNOTT</persName>
         <birth when="unfindable"/>
         <death when="unfindable"/>
         <desc> American author of short science fiction whose work has appeared in the anthologies <title>Again</title>, <title>Dangerous Visions</title> and <title>Cassandra Rising</title>.</desc>
         <note source="quark">is a young writer who has also studied law and theater. This is her
             second appearance in QUARK/.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>JOHN BRUNNER</persName>
@@ -16,6 +28,12 @@
         <desc>British author of science fiction novels and stories.</desc>
         <note source="quark">most recent novels are <title>The Jagged Orbit</title> and <title>Stand On Zanzibar</title>, which
             won the Hugo Award as Best Science Fiction Novel of 1969.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>ED BRYANT</persName>
@@ -24,6 +42,12 @@
        <desc> an American science fiction and horror writer sometimes associated with the <title>Dangerous Visions</title> series of anthologies that bolstered The New Wave.</desc>
         <note source="quark">has lived in Wyoming, Los Angeles, and New York. This is his second
             appearance in QUARK/.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>IRA COHEN</persName>
@@ -31,6 +55,12 @@
         <death when="2011-04-25" where="New York"/>
         <desc>an American poet, publisher, photographer and filmmaker.</desc>
         <note source="quark">lives in New York. He has just completed his first film <title>The Invasion of the Thunderbolt Pagoda</title>, in collaboration with Bill Vehr.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>THOMAS M. DISCH</persName>
@@ -39,6 +69,12 @@
         <desc>was an American science fiction writer and poet.</desc>
         <note source="quark"> is the author of the novels <title>The Genocides</title> and <title>Camp Concentration</title>. He
             has also been widely published as a poet.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person><persName>SONYA DORMAN</persName> 
         <birth when="1924-06-04" where="NYC"/>
@@ -46,7 +82,14 @@
         <desc>Dorman published around two dozen science fiction short stories between 1961 and 1980, and she was associated with science fiction's "New Wave" of experimental writing.</desc>
         <note source="quark">fiction has appeared in
             <title>Dangerous Visions</title> and in <title>Orbit</title>; and her book, <title>Poems</title>, was published by Ohio University
-            Press last fall.</note></person>
+            Press last fall.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
+    </person>
     <person>
         <persName>CAROL EMSHWILLER</persName>
         <birth when="1921-04-12" where="Ann Arbor, Michigan"/>
@@ -54,6 +97,12 @@
         <desc> was an American writer of avant garde short stories and science fiction who has won prizes ranging from the Nebula Award to the Philip K. Dick Award. Ursula K. Le Guin has called her "a major fabulist, a marvelous magical realist, one of the strongest, most complex, most consistently feminist voices in fiction". </desc>
         <note source="quark"> work is familiar to readers of <title>Orbit</title> and <title>Dangerous Visions</title>. She is
             presently completing her first novel.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>PHILIP JOSÉ FARMER</persName>
@@ -63,6 +112,12 @@
         <note source="quark">is the author of the novels <title>Flesh</title>, <title>The Lovers</title>, and <title>Blown</title>, and of the
             novella <title>Riders of the Purple Wage</title>, which appeared in <title>Dangerous Visions</title>, and won a Hugo
             Award.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>RUSSELL FITZGERALD</persName>
@@ -70,6 +125,12 @@
         <death when="1978-03-30" />
         <note source="quark">is a painter and a writer, whose art work appeared in QUARK/1. He lives
             in Vancouver. NEMI FROST is a San Francisco painter.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>MARILYN HACKER</persName>
@@ -77,6 +138,12 @@
         
         <desc>an American poet, translator and critic. She is Professor of English emerita at the City College of New York.</desc>
         <note source="quark">lives in San Francisco.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>JAMES KIELTY</persName>
@@ -84,6 +151,12 @@
         <death when="unfindable"/>
         <note source="quark">is a linguist, a playwright, and a city planner. Several of his
             dramatic works have been produced in San Francisco.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>FRITZ LEIBER</persName>
@@ -93,6 +166,12 @@
         <note source="quark">received both the Hugo Award and the Nebula Award of the Science
             Fiction Writers of America for the story <title>Gonna Roll Them Bones</title>, which appeared in
             <title>Dangerous Visions</title>.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>MAREK OBTULOWICZ</persName>
@@ -100,6 +179,12 @@
         <death when="unfindable"/>
         <note source="quark">is Polish, born in Cairo, and educated in England. At present, he lives
             in Milford, Pennsylvania, where he is working on a novel.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>ALEXEI PANSHIN</persName>
@@ -109,12 +194,24 @@
         <note source="quark"> is the author of the novels <title>Masque World</title>, <title>The Thurb Revolution</title>, and
             <title>Rite Of Passage</title>, which received the Nebula Award of the Science Fiction Writers of
             America.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>ROGER PENNEY</persName>
         <birth when="1939"/>
         <desc>a singer, songwriter and multi-instrumentalist.</desc>
         <note source="quark">is a painter who lives in San Diego.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>JAMES SALLIS</persName>
@@ -123,6 +220,12 @@
         <note source="quark"> is a poet who lives in Milford, Pennsylvania. A collection of his
             short fiction, <title>A Few Last Words</title>, appeared last fall, and he is presently working on a
             book about American country music.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>JOHN SLADEK</persName>
@@ -132,12 +235,24 @@
         <note source="quark">is the author of <title>The Reproductive System</title>, published in this country
             as <title>Mechasm</title>; and co-author, with Thomas M. Disch, of <title>Black Alice</title>. He is living in
             England.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>LELAND STONEY</persName>
         <birth when="unfindable"/>
         <death when="unfindable"/>
         <note source="quark">is a young poet living in San Francisco.</note>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
     </person>
     <person>
         <persName>LAURENCE YEP</persName>
@@ -145,5 +260,11 @@
         <desc> an American writer</desc>
         <note source="quark">story, <title>The Selchey Kids</title>, appeared in <title>World's Best Science Fiction</title>. He
             is a student at the University of California at Santa Cruz.</note>
-    </person>
+        <toc>
+            <entry>
+                <title></title>
+                <pages></pages>
+            </entry>
+        </toc>
+    </person></listPerson>
 </xml>
