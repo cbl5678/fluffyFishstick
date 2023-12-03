@@ -1,0 +1,330 @@
+
+        {
+        "type": "FeatureCollection",
+        "features": [
+        
+        
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [42.2813722, -83.7484616]
+            },
+            "properties": {
+            
+            "placeName": "Ann Arbor, Michigan",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.8466508, -73.8785937]
+            },
+            "properties": {
+            
+            "placeName": "Bronx, New York",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.3451668, -75.1263909]
+            },
+            "properties": {
+            
+            "placeName": "Bucks County, Pennsylvania",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [41.8755616, -87.6244212]
+            },
+            "properties": {
+            
+            "placeName": "Chicago, Illinois",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [39.7392364, -104.984862]
+            },
+            "properties": {
+            
+            "placeName": "Denver, Colorado",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [41.5910323, -93.6046655]
+            },
+            "properties": {
+            
+            "placeName": "Des Moines, Iowa",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [35.996653, -78.9018053]
+            },
+            "properties": {
+            
+            "placeName": "Durham, North Carolina",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [34.539412, -90.6155926]
+            },
+            "properties": {
+            
+            "placeName": "Helena, Arkansas",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [42.7337712, -84.5553805]
+            },
+            "properties": {
+            
+            "placeName": "Lansing, Michigan",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.7896239, -73.9598939]
+            },
+            "properties": {
+            
+            "placeName": "Manhattan, NYC",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [44.9772995, -93.2654692]
+            },
+            "properties": {
+            
+            "placeName": "Minneapolis, Minnesota",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.7127281, -74.0060152]
+            },
+            "properties": {
+            
+            "placeName": "NYC",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.7127281, -74.0060152]
+            },
+            "properties": {
+            
+            "placeName": "New York",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [39.524097, -87.385742]
+            },
+            "properties": {
+            
+            "placeName": "North Terre Haute, Indiana",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [40.6938609, -89.5891008]
+            },
+            "properties": {
+            
+            "placeName": "Peoria, Illinois",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [51.6133936, -1.1108054]
+            },
+            "properties": {
+            
+            "placeName": "Preston Crowmarsh",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [37.7790262, -122.419906]
+            },
+            "properties": {
+            
+            "placeName": "San Francisco, California",
+            
+            "count": 2
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [36.4072377, -105.573284]
+            },
+            "properties": {
+            
+            "placeName": "Taos, New Mexico",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [42.7258451, -92.4746033]
+            },
+            "properties": {
+            
+            "placeName": "Waverly, Iowa",
+            
+            "count": 1
+            }
+            }
+            
+            ,
+            {
+            "type": "Feature",
+            "geometry": {
+            "type": "Point",
+            
+            "coordinates": [41.0339862, -73.7629097]
+            },
+            "properties": {
+            
+            "placeName": "White Plains, New York",
+            
+            "count": 1
+            }
+            }
+            
+            
+     
+     ]
+     }
+    
