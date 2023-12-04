@@ -25,8 +25,9 @@ where=attribute where {text}
 
 desc=element desc {mixed{title*}}
 
-note=element note {source, mixed{title*}}
+note=element note {source, mixed{(title | place)*}}
 
+place= element place {text}
 title = element title {text}
 
 source=attribute source {"quark" | "projectTeam"}
