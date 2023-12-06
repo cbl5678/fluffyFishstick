@@ -56,6 +56,7 @@ figcaption {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+<<<<<<< HEAD
 th, td {
     /*  background-color: #ffeb3b; */
     border: 1px solid #ddd;
@@ -95,4 +96,7 @@ td:nth-child(5), th:nth-child(6) {
 th:hover, td:hover {
     background-color: #333;
     color: #f7dc6f;
+=======
+a:hover{opacity:0.5;
+>>>>>>> 64d2fcd630bd86f77a1d97a30f3c7b4f4b46bc94
     transition: background-color 0.5s, color 0.4s;}
