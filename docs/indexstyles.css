@@ -19,10 +19,9 @@ h1 {
     bottom: 20px;
 }
 
-.content {
+.intro {
     padding: 20px;
     text-align: center;
-    background-color: #FFDEAD; /*  NavajoWhite */
 }
 
 .photo-gallery {
@@ -90,14 +89,3 @@ td:nth-child(4), th:nth-child(4) {
 td:nth-child(5), th:nth-child(6) {
     width: 20%;
 }
-
-
-/*  tr:hover {
-th:hover, td:hover {
-    background-color: #333;
-    color: #f7dc6f;
-=======
-a:hover{
-    opacity:0.5;
-    transition: background-color 0.5s, color 0.4s;
-    }*/
