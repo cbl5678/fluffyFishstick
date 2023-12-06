@@ -1,7 +1,12 @@
-body, h1, p {
+body, p {
     margin: 0;
     padding: 0;
+
     
+
+    background-color: #333;
+    color: white;
+
 
 }
 body{background-color:#FFDEAD; }
@@ -14,7 +19,9 @@ header {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 75px;
+    text-align: center;
+    bottom: 20px;
 }
 
 .content {
@@ -54,6 +61,7 @@ figcaption {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+
 a:hover{opacity:0.5;
     transition: background-color 0.5s, color 0.4s;}
     
@@ -67,7 +75,8 @@ text-align:center;
 }
 
 h2{text-align:center;
-padding:10px;}
+padding:10px;
+color:black;}
 
 h3{padding:10px;}
 
@@ -77,3 +86,50 @@ color:black;
 margin-left:auto;
 margin-right:auto;
 border:solid black 5px;}
+
+
+th, td {
+    /*  background-color: #ffeb3b; */
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+tr {
+    
+}
+th {
+    background-color: #f7dc6f;
+    color: black;
+}
+
+td:nth-child(1), th:nth-child(1) {
+    width: 20%;
+}
+
+td:nth-child(2), th:nth-child(2) {
+    width: 10%;
+}
+
+td:nth-child(3), th:nth-child(3) {
+    width: 10%;
+}
+
+td:nth-child(4), th:nth-child(4) {
+    width: 40%;
+}
+
+td:nth-child(5), th:nth-child(6) {
+    width: 20%;
+}
+
+
+/*  tr:hover {
+th:hover, td:hover {
+    background-color: #333;
+    color: #f7dc6f;
+=======
+a:hover{
+    opacity:0.5;
+    transition: background-color 0.5s, color 0.4s;
+    }*/
+
