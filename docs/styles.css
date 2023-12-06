@@ -14,7 +14,6 @@ table {
 }
 
 th, td {
-    /*  background-color: #ffeb3b; */
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
@@ -38,7 +37,7 @@ td:nth-child(3), th:nth-child(3) {
 }
 
 
-/*  tr:hover {*/
+
 th:hover, td:hover {
     background-color: #333;
     color: #f7dc6f;
