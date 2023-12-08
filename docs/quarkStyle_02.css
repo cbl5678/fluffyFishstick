@@ -7,7 +7,7 @@ body {
 }
 
 table {
-    width: 50%;
+    width: 75%;
     border-collapse: collapse;
     margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -29,7 +29,7 @@ th {
 }
 
 td:nth-child(1), th:nth-child(1) {
-    width: 30%;
+    width: 20%;
 }
 
 td:nth-child(2), th:nth-child(2) {
@@ -37,9 +37,14 @@ td:nth-child(2), th:nth-child(2) {
 }
 
 td:nth-child(3), th:nth-child(3) {
-    width: 50%;
+    width: 20%;
 }
-
+td:nth-child(4), th:nth-child(4) {
+    width: 40%;
+}
+td:nth-child(5), th:nth-child(5) {
+    width: 0%;
+}
 
 /*  tr:hover {*/
 th:hover, td:hover {

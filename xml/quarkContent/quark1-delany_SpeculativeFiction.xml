@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD:xml/delany_SpeculativeFiction.xml
+
 <!-- 
      pb = pageBottom 
      PoI = Point of Interest
@@ -7,10 +7,8 @@
 -->
 
 
-=======
-<!-- pb = pageBottom -->
-<?xml-model href="../schema/speculativeFiction.rnc" type="application/relax-ng-compact-syntax"?>
->>>>>>> 24acc3c997edb5b0276d6304577f06252ba20fb9:xml/quarkContent/quark1-delany_SpeculativeFiction.xml
+
+
 <xml>
     <header>
         <issue>Quark 1</issue>

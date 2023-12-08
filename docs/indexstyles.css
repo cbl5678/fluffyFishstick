@@ -1,4 +1,4 @@
-body, p {
+body {
     margin: 0;
     padding: 0;
 
@@ -27,6 +27,7 @@ h1 {
 .intro {
     padding: 20px;
     text-align: center;
+    color:black;
 }
 
 .photo-gallery {
@@ -70,7 +71,9 @@ color:white;
 text-align:center;
     position: fixed;
     bottom: 0;
+    left:0;
     width: 100%;
+    
 }
 
 h2{text-align:center;
@@ -84,7 +87,9 @@ background-color:white;
 color:black;
 margin-left:auto;
 margin-right:auto;
-border:solid black 5px;}
+border:solid black 5px;
+padding:10px;
+margin-bottom:45px;}
 
 
 th, td {
@@ -92,9 +97,31 @@ th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    color:black;
 }
+#heading{color:black;}
 tr {
     
+}
+#home{width:50px;
+height:25px;
+background-color:black;
+margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color:white ;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
 }
 th {
     background-color: #f7dc6f;
@@ -120,4 +147,48 @@ td:nth-child(4), th:nth-child(4) {
 td:nth-child(5), th:nth-child(6) {
     width: 20%;
 }
+.repo{color:black;
+text-align:center;
+margin-bottom:10px;}
+.repoLink {width:100px;
+height:50%;
+background-color:#FFDEAD;
+color:black;
+margin-left:15px;
+padding:3px;
+border-radius:25px;
+margin-top:5px; 
+margin-bottom:5px;
+border:solid black 3px;
+padding:0;}
 
+.flex-container {
+    display: flex;
+    padding:5px;
+    
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid black;
+    white-space: pre-wrap;
+    padding:5px;
+    background-color:#FFE4B5;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+pre {
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the code block */
+    border-radius: 5px; /* Rounded corners */
+    font-family: "Courier New", monospace; /* Font family for code */
+    font-size: 14px; /* Font size */
+    overflow: auto; /* Add a scrollbar if code overflows */
+    white-space: pre-wrap; /* Wrap long lines */
+    text-align: left; /* Left-align text within the pre element */
+    max-height: 300px;
+}

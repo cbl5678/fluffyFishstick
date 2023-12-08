@@ -8,19 +8,20 @@
         <header>
             <h1>Quark</h1>
         </header>
-
         <section class="intro">
-            <p>Welcome to our Quark Magazine project website! Click on each Issue of Quark to learn More!</p>
+            <p>Welcome to our Quark Magazine project website! Click on each Issue of Quark to learn
+                More!</p>
         </section>
         <section class="photo-gallery">
             <figure class="photo">
-                <a href="contribList_01.html"><img src=images/Quark_1.jpg alt="Photo 1"></a>
-                <figcaption>The front cover of quark #1, a black arm hulding a needle
-                    towards itself with a flag next to it.</figcaption>
-
+                <a href="contribList_01.html">
+                    <img src=images/Quark_1.jpg alt="Photo 1">
+                </a>
+                <figcaption>The front cover of quark #1, a black arm hulding a needle towards itself
+                    with a flag next to it.</figcaption>
             </figure>
             <figure class="photo">
-                <a href="quark02.html">
+                <a href="test_contribList02.html">
                     <img src=images/Quark_2.jpg alt="Photo 2">
                 </a>
                 <figcaption>The front cover of quark #2, a young buy laying down on a background
@@ -43,39 +44,175 @@
             </figure>
         </section>
         <section class="projectInfo">
-            <h2><u>Project Info</u></h2>
+            <h2>
+                <u> Project Info </u>
+            </h2>
             <div class="info">
-              <h3><u>Overview</u></h3>
-                <p>Our goal of our project was to ......</p>
-                
-                <h3>Our Repository</h3>
+                <h3>
+                    <u> Overview </u>
+                </h3>
+                <p>Our goal of our project was to associate each author involved to the different
+                    Quark Magazine Issues they had written and other works each author did that was
+                    mentioned inside of Quark.</p>
+                <h3>
+                    <u> Our Repository </u>
+                </h3>
                 <p>Click on this link to visit our GitHub Repository</p>
+                <a class="repo" href="https://github.com/cbl5678/fluffyFishstick">
+                    <div class="repoLink">
+                        <p>REPO</p>
+                    </div>
+                </a>
+                <h3>
+                    <u> Schema </u>
+                </h3>
+                <p>For this project, we had to write up two separate schemas. This was due to the
+                    complexity of the two types of XML markup we had wrote. We markedup the
+                    "Contributor Lists" and the "Speculative Fiction" chapters in each issue. This
+                    allowed us to use XSLT to pull specific information from both types of markup files. </p>
+                <div class="flex-container">
+                    <div class="flex-child contribList">
+                        <h2>
+                            <u> Contributors List Schema </u>
+                        </h2>
+                        <pre> <code>start = xml
+                        
+                        xml = element xml {header, listPerson}
+                        
+                        header = element header {title, editor*, issue}
+                        editor = element editor {text}
+                        issue = element issue {xsd:integer}
+                        
+                        listPerson = element listPerson {person+}
+                        person = element person {persName, birth*, death*, desc*, note*, toc}
+                        
+                        toc = element toc {entry+}
+                        
+                        entry = element entry {title, pages}
+                        
+                        pages = element pages {text}
+                        
+                        persName=element persName {text}
+                        
+                        birth=element birth {when, where*}
+                        death=element death {when, where*}
+                        
+                        when=attribute when {"unfindable"|xsd:date|xsd:gYear}
+                        where=attribute where {text}
+                        
+                        desc=element desc {mixed{title*}}
+                        
+                        note=element note {source, mixed{(title | place)*}}
+                        
+                        place= element place {text}
+                        title = element title {text}
+                        
+                        source=attribute source {"quark" | "projectTeam"}</code></pre>
+                    </div>
+                    <div class="flex-child specFic">
+                        <h2>
+                            <u> Speculative Fiction Schema </u>
+                        </h2>
+                        <pre><code>start=xml
+                            xml=element xml {header, title, (epigraph | p | pb | signature)+ }
+                            
+                            header = element header {issue, date}
+                            
+                            issue = element issue {text}
+                            
+                            date = element date {when, text}
+                            
+                            when = attribute when {xsd:date | xsd:gYearMonth| xsd:gYear}
+                            
+                            epigraph = element epigraph {p+, cit}
+                            
+                            cit = element cit {mixed{persName, title}}
+                            
+                            signature = element signature {text}
+                            
+                            title=element title {type?, text}
+                            
+                            type=attribute type {"essay" | "summary" | "bold" | text}
+                            
+                            p=element p {mixed{ (num | persName| title|groupName | pb | \list | altFont)*}}
+                            
+                            num = element num {xsd:float}
+                            
+                            altFont = element altFont {type, mixed{ (persName| title|groupName | pb | \list | altFont)*}}
+                            
+                            \list=element list {Lo+}
+                            
+                            Lo = element Lo {text}
+                            
+                            pb = element pb {n, empty}
+                            
+                            n = attribute n {xsd:integer}
+                            
+                            groupName = element groupName {text}
+                            
+                            persName = element persName {text}</code></pre>
+                    </div>
+                </div>
+                <h3><u> XML </u></h3>
+                <p>Below are some links to our markup documents located in our GitHub repo.</p>
+                <a class="repo" href="https://github.com/cbl5678/fluffyFishstick/tree/main/xml/contributorLists">
+                    <div class="repoLink">
+                        <p>Contributor's List XML</p>
+                    </div>
+                </a>
+                <a class="repo" href="https://github.com/cbl5678/fluffyFishstick/tree/main/xml/quarkContent">
+                    <div class="repoLink">
+                        <p>Speculative Fiction XML</p>
+                    </div>
+                </a>
+                <h3>
+                    <u> XSLT </u>
+                </h3>
+                <p>With our XSLT we wanted to pull contributors names, places, and the issues of
+                    "Quark" each author contributed to. With that information we built a table that
+                    represented each individual author and information pertaining to them like their
+                    birth and death dates, as well as a short bio, and other works they have written
+                    that was mention in the issues of "Quark." </p>
+                <p>XSLT was also used to pull locations from our markup documents and mark them on
+                    an interactive map using JavaScript. This was with the help of Dr.
+                    Beshero-Bondar, our Digital Humanities teacher.</p>
                 
-                <a href="https://github.com/cbl5678/fluffyFishstick"><p id="repo">REPO</p></a>
-                
-                <p>words</p>
-                
-                <p>words</p>
-                
-                <p>words</p>
-                
+                    
+            <h3>
+                <u> Map </u>
+            </h3>
+            <p>Here is link to a map. This map contains important locations that relate to the
+                contributors of the Quark issues. This shows us what parts of the world these
+                contributors, and their works, came from. The size of the dots on the map
+                represents the amount of times the location was mentioned in the markup
+                documents.</p>
+            <p>One particular city that is notable is Milford, Pennsylvania. Many contributors'
+                work came from here.</p>
+            <a class="repo" href="map.html">
+                <div class="repoLink">
+                    <p>MAP</p>
+                </div>
+            </a>
+                <h3><u> About Us </u></h3>
+                <p>under construction</p>
             </div>
-            
-            
         </section>
-        
-            <div id="footer"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
-                    property="dct:title">QuarkResearch</span> by <span property="cc:attributionName"
-                    >Connor Lengyel, Liz Chavez, Tommy Moffett-Clanton, Hattie Sosia</span> is
-                marked with <a
-                    href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1"
-                    target="_blank" rel="license noopener noreferrer" style="display:inline-block;"
-                    >CC0 1.0<img alt=""
-                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
-                        ><img alt=""
-                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-                        src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"
-                    ></a></p></div>
+        <section class="footer">
+            <div id="footer">
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"
+                        ><span property="dct:title">QuarkResearch</span> by <span
+                        property="cc:attributionName">Connor Lengyel, Liz Chavez, Tommy
+                        Moffett-Clanton, Hattie Sosia</span> is marked with <a
+                        href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1"
+                        target="_blank" rel="license noopener noreferrer"
+                        style="display:inline-block;">CC0 1.0<img alt=""
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+                            ><img alt=""
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"
+                        ></a></p>
+            </div>
+        </section>
     </body>
 </html>
