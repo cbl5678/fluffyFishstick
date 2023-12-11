@@ -192,3 +192,31 @@ pre {
     text-align: left; /* Left-align text within the pre element */
     max-height: 300px;
 }
+
+#bioContainer {
+  padding: 30px 0;
+  text-align: center;
+  background-color:#FFDEAD;
+  border:solid black 3px;
+  border-radius:25px;
+}
+.bio{display: inline-block;
+  width: 200px;
+  margin: 10px;
+  border:solid black 3px;
+  border-radius:25px;
+  background-color:white;
+  padding:10px;
+  }
+  
+  .bio h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration:underline;
+}
+
+.bio p {
+  font-size: 14px;
+  line-height: 1.5;
+}
